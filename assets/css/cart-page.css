@@ -1,0 +1,327 @@
+.woocommerce-cart {
+    background-color: #F5F5F5 !important;
+}
+div#la-cart-page .cart_totals {
+    width: 100%;
+}
+.cart-subtotal p {
+    display: inline;
+}
+p.cart-subtotal-prc {
+    float: right;
+}
+p.cart-subtotal-title {
+    float: left;
+}
+.order-total h2 {
+    display: inline;
+}
+.order-total-title {
+    float: left;
+}
+.order-total-price {
+    float: right;
+}
+.coupon {
+    display: inline-flex;
+    padding-bottom: 20px;
+    width: 100%;
+}
+.la-coupon-code input#coupon_code {
+    width: 100%;
+    border: 1px solid #303030;
+}
+.la-coupon-code button {
+    background: #303030 !important;
+    border-radius: 0px 3px 3px 0px !important;
+}
+span.cart-switch-text {
+    display: inline;
+}
+span.cart-switch-prc {
+    display: inline;
+    float: right;
+}
+p.cart-switch-ss {
+    position: relative;
+    left: 60px;
+    font-size: 12px;
+    font-weight: 400;
+}
+label.switch {
+    margin-right: 10px;
+}
+.ul-access {
+    background: #AF1F47;
+    border-radius: 10px;
+    padding: 15px 28px;
+    margin: 10px 0px 45px 0px;
+}
+p.ac-ul-cart-top {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+}
+.ul-access form.cart {
+    text-align: center;
+}
+button#add-access-sidecart-button-cart {
+    padding: 12px 25px;
+    background-color: #fff;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #AF1F47;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+}
+p.ac-ul-cart-btm {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0px;
+}
+p.ac-ul-cart-prc {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 15px;
+    margin-top: -7px;
+}
+p.ac-ul-cart-prc strong {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.order-total p {
+    font-size: 18px;
+    font-weight: 600;
+}
+.wc-proceed-to-checkout a {
+    background-color: #AF1F47 !important;
+    padding: 8px 0px !important;
+}
+.wc-proceed-to-checkout a:hover {
+    background-color: #cc315c !important;
+}
+.cart_totals {
+    background-color: #fff;
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 5%);
+    border-radius: 10px !important;
+}
+h2.la-woo-order-summary {
+    background-color: #fff !important;
+    border-bottom: 1px solid #C1C1C1 !important;
+    padding: 10px 0px;
+    margin: 15px 0px !important;
+}
+
+form.woocommerce-cart-form {
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px rgb(0 0 0 / 5%);
+    border-radius: 10px;
+    padding: 20px 30px 5px;
+}
+.la-cart-form-head {
+    padding-top: 5px;
+}
+.la-course-name {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #211F32;
+}
+h2.la-woo-order-summary {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500 !important;
+    font-size: 20px;
+    line-height: 30px;
+    color: #303030;
+}
+.la-course-price {
+    float: right;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #211F32;
+}
+.col-1.la-course-qty {
+    margin: auto;
+}
+.product-thumbnail a img {
+    border-radius: 10px;
+}
+.la-courses-name-frm a {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #303030;
+}
+.la-courses-price-frm {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #303030;
+    float: right;
+}
+.woocommerce-cart-form__cart-item.cart_item {
+    border-top: 0.5px solid #C1C1C1;
+    padding: 20px 0px;
+    margin-top: 15px;
+}
+button.la-cart-update-btn:hover {
+    float: right;
+    padding: 8px 30px;
+    background-color: #111111;
+    border-radius: 2px;
+}
+button.la-cart-update-btn {
+    float: right;
+    padding: 8px 30px;
+    background-color: #AF1F47;
+    border-radius: 2px;
+}
+a.remove {
+    background: #aeacac;
+    color: #fff !important;
+}
+button#add-access-sidecart-button-cart:hover {
+    color: #ffffff;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+    background-color: #AF1F47;
+    transition: 0.40s;
+}
+
+section.la-cart-update {
+    border-top: 0.5px solid #C1C1C1;
+    padding: 20px 0px;
+}
+.cart-empty {
+    text-align: center;
+}
+.cart-empty img {
+    width: 120px;
+    text-align: center;
+}
+p.return-to-shop {
+    text-align: center;
+    margin: 40px 0px;
+}
+a.button.wc-backward {
+    background-color: #AF1F47;
+}
+p.cart-empty.woocommerce-info {
+    border-top-color: #AF1F47 !important;
+    background-color: #ffffff;
+}
+.woocommerce-info::before {
+    color: #AF1F47 !important;
+}
+.product-quantity {
+    float: right;
+    margin-top: 15px;
+}
+.woocommerce-message {
+    border-top-color: #AF1F47;
+    background-color: #fff;
+}
+.woocommerce-message::before, .woocommerce-info::before {
+    color: #AF1F47;
+}
+a.restore-item {
+    color: #AF1F47;
+}
+
+
+/* Mobile css */
+@media (max-width: 460px) {
+    .la-course-name {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 30px;
+        color: #211F32;
+    }
+    .la-course-price {
+        float: right;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 30px;
+        color: #211F32;
+    }
+    .la-courses-name-frm a {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        color: #303030;
+    }
+    .la-courses-price-frm {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 28px;
+        color: #303030;
+        float: right;
+    }
+    form.woocommerce-cart-form {
+        margin-bottom: 35px;
+    }
+    h2.la-woo-order-summary {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500 !important;
+        font-size: 17px;
+        line-height: 30px;
+        color: #303030;
+    }
+    .product-thumbnail {
+        display: none;
+    }
+    .la-courses-name-frm {
+        position: relative;
+        width: 190px;
+        left: -35px;
+    }
+}
+
+/* Tab css */
+@media screen and (min-width: 767px) and (max-width: 991px) {
+    .cart-collaterals {
+        margin-top: 45px;
+    }
+}

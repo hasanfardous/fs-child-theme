@@ -1,0 +1,1250 @@
+header.sleek.transparent.fixed {
+    position: unset;
+    z-index: auto;
+}
+
+#phlebotomy-page {
+    background: #F5F5F5;
+    font-size: 14px;
+}
+
+#phlebotomy-page h1,
+#phlebotomy-page h2,
+#phlebotomy-page h3,
+#phlebotomy-page h4,
+#phlebotomy-page h5,
+#phlebotomy-page h6 {
+    font-family: 'Poppins' !important;
+}
+
+#phlebotomy-page h1 {
+    font-size: 56px;
+}
+
+#phlebotomy-page h2 {
+    font-size: 56px;
+}
+
+#phlebotomy-page h3 {
+    font-size: 28px;
+}
+
+#phlebotomy-page h4 {
+    font-size: 21px;
+}
+
+#phlebotomy-page h5 {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+#phlebotomy-page h6 {
+    font-size: 18px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+}
+
+#phlebotomy-page h6:last-child {
+    border: none;
+}
+
+#phlebotomy-page .single-phlebotomy-top-3 h6 {
+    padding: 0;
+    border: none;
+    font-weight: bold;
+}
+
+#phlebotomy-page ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.full-width-section {
+    clear: both;
+    width: 100vw !important;
+    position: relative;
+    margin-left: -50vw !important;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    left: 50% !important;
+}
+
+.float-row {
+    clear: both;
+    overflow: hidden;
+    float: initial !important;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.float-row .float-left,
+.float-row .float-right {
+    width: 50%;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.phlebotomy-container {
+    margin: 0 auto;
+    overflow: hidden;
+    width: 1240px;
+    display: flex;
+}
+
+#phlebotomy-page .red-button {
+    background: #AF1F47;
+    border-radius: 10px;
+    color: #fff;
+    display: block;
+    font-size: 18px;
+    padding: 16px 40px 16px 40px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#phlebotomy-page {
+    color: #303030;
+    font-family: 'Poppins';
+    /* padding-bottom: 50px; */
+}
+
+#phlebotomy-hero {
+    background-image: url('/wp-content/uploads/2022/10/banner-1-scaled-1.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.page-id-375549 #phlebotomy-hero {
+    background-image: url('/wp-content/uploads/2023/06/phlebotomy-training-birmingham.webp') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.page-id-380170 #phlebotomy-hero {
+    background-image: url(https://lead-academy.org/wp-content/uploads/2023/09/Mental-Health-First-Aid-2-scaled.webp), linear-gradient(rgb(0 0 0 / 71%), rgb(0 0 0)) !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center !important;
+    color: #fff;
+    background-blend-mode: overlay;
+    padding: 50px 0;
+}
+
+a.phl-btn-bhg {
+    background-color: #fff;
+    padding: 2px 10px;
+    font-size: 18px;
+    border-radius: 40px;
+    color: #af1f47;
+}
+
+#nail-technician {
+    background-image: url('/wp-content/uploads/2023/05/Image-2.webp') !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding: 50px 0;
+}
+
+#phlebotomy-hero-content {
+    max-width: 100%;
+    width: 780px;
+}
+
+#phlebotomy-hero h1 {
+    color: #fff;
+    font-size: 41px;
+    line-height: 60px;
+    font-weight: 700;
+    margin: 0 auto 10px;
+}
+
+#nail-technician h1 {
+    color: #fff;
+    font-size: 41px;
+    line-height: 60px;
+    font-weight: 700;
+    margin: 0 auto 10px;
+}
+
+#phlebotomy-hero-content p {
+    font-size: 18px !important;
+    line-height: 28px;
+}
+
+#phlebotomy-hero-content img {
+    margin-top: 15px;
+    max-width: 100%;
+    width: 430px;
+}
+
+#phlebotomy-hero-content a {
+    margin-top: 50px;
+}
+
+#phlebotomy-main-section {
+    background: #FBFBFB;
+    padding: 50px 0;
+}
+
+.single-phlebotomy-top-3 {
+    display: inline-block;
+    font-size: 14px;
+    padding: 19px 50px 19px 0;
+    width: 33%;
+}
+
+.single-phlebotomy-top-3 h6 {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 auto 5px;
+}
+
+.single-phlebotomy-top-3 p {
+    margin-bottom: 0;
+}
+
+.single-phlebotomy-top-3 .float-left {
+    padding-right: 15px;
+    width: 50px;
+}
+
+.single-phlebotomy-top-3 .float-left img {
+    height: 36px;
+}
+
+.single-phlebotomy-top-3 .float-right {
+    width: calc(100% - 50px);
+}
+
+div#overview-wrap,
+div#accreditaion-wrap,
+div#course-curriculum-wrap,
+div#reviews-wrap,
+div#faq-wrap {
+    padding-top: 50px;
+}
+
+.phlebotomy-common {
+    background: #fff;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.phlebotomy-common h3,
+#reviews h3 {
+    font-weight: 700;
+    margin: 0 auto 14px;
+}
+
+#reviews h3 {
+    margin: 0 auto 0;
+    line-height: 26px;
+}
+
+.phlebotomy-common h5 {
+    font-weight: 500;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+#booking-options {
+    font-size: 16px;
+    margin-bottom: 50px;
+}
+
+#booking-options h3 img {
+    height: 20px;
+}
+
+.single-booking-option {
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.single-booking-left {
+    float: left;
+    width: calc(100% - 150px);
+}
+
+.single-booking-left img {
+    height: 32px;
+}
+
+.single-booking-right {
+    float: left;
+    width: 150px;
+}
+
+.single-booking-right div img,
+.single-booking-right div span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.single-booking-right img {
+    height: 20px;
+    padding-right: 5px;
+}
+
+div#show-classroom-schedule-wrap {
+    display: none;
+}
+
+#show-classroom-schedule {
+    border-top: 1px solid #dcdcdc;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#show-f-classroom-schedule {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+#show-classroom-schedule .single-booking-left,
+#show-f-classroom-schedule .single-booking-left {
+    padding-left: 40px;
+}
+
+#show-classroom-schedule .single-booking-left div,
+#show-f-classroom-schedule .single-booking-left div {
+    margin-top: 10px;
+}
+
+#date-book-now-btn {
+    background: #AF1F47;
+    color: #fff;
+}
+
+#enquire-now-btn {
+    margin-top: 40px;
+}
+
+.single-booking-option h4 {
+    margin: 0 auto 6px;
+}
+
+.single-booking-option h4 img {
+    margin-right: 10px;
+    width: 27px;
+}
+
+.single-booking-option ul {
+    padding-left: 60px;
+    list-style: outside;
+}
+
+.single-booking-option ul li {
+    line-height: 32px;
+}
+
+.page-id-375549 .single-booking-option ul li {
+    line-height: 32px;
+    list-style-position: inside;
+}
+
+.single-booking-option .single-booking-btn {
+    border: 1px solid #af1f47;
+    border-radius: 6px;
+    color: #303030;
+    float: left;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    width: 150px;
+    font-weight: 500;
+}
+
+.single-booking-btn-black {
+    background-color: #000 !important;
+    border: 1px solid #000 !important;
+}
+
+#all-booking-info {
+    overflow: hidden;
+}
+
+.single-booking-info {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    width: 32.9%;
+}
+
+.single-booking-info-picture {
+    float: left;
+    padding-right: 10px;
+    width: 34px;
+}
+
+.single-booking-info-picture img {
+    width: 24px;
+}
+
+.single-booking-info-details {
+    float: left;
+    font-size: 14px;
+    padding-right: 10px;
+    width: calc(100% - 34px);
+}
+
+.single-booking-info-details h6 {
+    font-size: 16px !important;
+    font-weight: 500;
+    margin-bottom: 5px;
+    line-height: 1.4rem;
+}
+
+#accreditaion ul,
+#faq .accordion-content ul {
+    padding-left: 20px;
+}
+
+#phlebotomy-main {
+    display: inline-block;
+    width: 809px;
+    max-width: 100%;
+}
+
+#phlebotomy-sidebar {
+    display: inline-block;
+    vertical-align: top;
+    width: 401px;
+    margin-left: 25px;
+    max-width: 100%;
+}
+
+/* Screenshot section */
+#screenshot-wrap .single-screenshot-item {
+    display: flex;
+    margin-top: 24px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+#screenshot-wrap .single-screenshot-item img {
+    width: 90%;
+}
+
+/* Optional: Style the thumbnail image */
+.fancybox img {
+    border: 5px solid #fff;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    margin: 5px;
+}
+
+/* Optional: Style the close button */
+.fancybox-close {
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.fancybox-close:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Optional: Style the navigation arrows */
+.fancybox-nav span {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.fancybox-nav span:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.fancybox-nav .fancybox-next {
+    right: 0;
+}
+
+.fancybox-nav .fancybox-prev {
+    left: 0;
+}
+
+#video-testimonial {
+    display: none;
+}
+
+.la-practical-video-wrap {
+    margin: 50px auto 20px;
+}
+
+@media (max-width: 480px) {
+    #screenshot-wrap .single-screenshot-item {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 10px;
+        row-gap: 10px;
+    }
+
+    #screenshot-wrap .single-screenshot-item img {
+        width: 90%;
+    }
+
+    #video-testimonial {
+        display: block !important;
+    }
+
+    .la-practical-video-wrap iframe {
+        height: auto;
+    }
+}
+
+#screenshot-wrap {
+    margin: 20px auto 0;
+}
+
+#course-fee-info,
+#mobile-course-fee-info {
+    background: #fff;
+    border: 2px solid #dcdcdc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#mobile-course-fee-info {
+    display: none;
+}
+
+#course-fee {
+    background-color: #303030;
+    border-radius: 10px;
+    color: #fff;
+    padding: 20px;
+    margin: -2px;
+}
+
+#course-fee .float-row {
+    margin: 7px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#course-fee .float-row .float-left,
+#course-fee .float-row .float-right {
+    width: unset;
+    align-items: center;
+}
+
+#course-fee .float-row .float-right h5 {
+    margin-left: 16px;
+    align-items: center;
+    opacity: .4;
+}
+
+#course-price h3 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    margin: 0 auto;
+}
+
+#course-price>h5 {
+    font-size: 16px;
+    font-weight: 700;
+    /* text-decoration: line-through; */
+}
+
+#course-price .float-right.text-right>h5 {
+    font-size: 18px;
+    text-decoration: line-through;
+}
+
+#course-price img {
+    height: 19px;
+    padding-right: 5px;
+}
+
+#course-fee .red-button {
+    display: block;
+    margin-top: 40px;
+    font-weight: 600;
+}
+
+#course-fee h6 {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    border: none;
+    padding: 0;
+}
+
+#course-fee h3,
+#course-fee h5,
+#course-fee h6 {
+    color: #fff !important;
+}
+
+#course-fee-others {
+    padding: 30px 20px 20px;
+}
+
+#course-fee-others .float-row:first-child {
+    margin-bottom: 20px;
+}
+
+#course-fee-others .float-left,
+#course-fee-others .float-right {
+    font-size: 16px;
+    margin: 10px auto 0;
+}
+
+#course-fee-others .float-left,
+#course-fee-others .float-right {
+    text-align: center;
+}
+
+#course-fee-others .float-left {
+    padding-right: 20px;
+}
+
+#course-fee-others img {
+    height: 20px;
+    margin-bottom: 8px;
+}
+
+#phlebotomy-single-links ul {
+    background: #282830;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px -3px #969696;
+    display: block;
+    list-style: none;
+    z-index: 99;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#phlebotomy-single-links ul li {
+    display: inline-block;
+    width: 19.5%;
+}
+
+#phlebotomy-single-links ul li a {
+    color: #fff;
+    display: block;
+    font-family: 'Poppins';
+    font-size: 16px;
+    padding: 10px 0;
+    text-align: center !important;
+    text-decoration: none;
+    text-align: center;
+}
+
+#phlebotomy-single-links ul li a.active {
+    background: #AF1F47;
+}
+
+#phlebotomy-single-links ul.sticky,
+#mobile-phlebotomy-single-links ul.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+#mobile-phlebotomy-single-links ul {
+    background-color: #F5F5F5;
+    border-bottom: 1px solid #DADADA;
+    margin: 0px;
+    padding: 0px;
+    width: 100% !important;
+    text-align: center;
+}
+
+#mobile-phlebotomy-single-links li {
+    display: inline-block;
+}
+
+#mobile-phlebotomy-single-links li a {
+    color: #303030;
+    display: block;
+    padding: 7px;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+#mobile-phlebotomy-single-links li a.active {
+    color: #AF1F47;
+}
+
+#overview p,
+#accreditaion p {
+    margin: 10px 0;
+    font-size: 16px !important;
+    line-height: 28px;
+    /* font-weight: 300; */
+}
+
+#overview ul li:before,
+#accreditaion ul li:before,
+#faq .accordion-content ul li:before {
+    content: "\2022";
+    display: inline-block;
+    color: #E64C7E;
+    margin-right: 10px;
+    font-size: 30px;
+    vertical-align: top;
+}
+
+#overview ul li,
+#accreditaion ul li,
+#faq .accordion-content ul li {
+    padding-bottom: 14px;
+    font-size: 16px;
+    line-height: 28px;
+    list-style: none;
+    /* font-weight: 300; */
+}
+
+#overview ul li:last-child,
+#accreditaion ul li:last-child,
+#faq .accordion-content ul li:last-child {
+    padding-bottom: 0;
+}
+
+#get-in-touch,
+#phlebotomy-practical-session {
+    background: #fff;
+    border: 2px solid #DCDCDC;
+    border-radius: 12px;
+    padding: 20px;
+}
+
+#get-in-touch h4 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#get-in-touch a {
+    border: 1px solid #303030;
+    border-radius: 10px;
+    /* color: #303030; */
+    display: block;
+    font-size: 18px;
+    /* margin-top: 20px; */
+    /* padding: 15px 0; */
+    text-align: center;
+    text-decoration: none;
+}
+
+div#accreditaion>div {
+    text-align: center;
+}
+
+div#accreditaion>div>img {
+    max-width: 38%;
+}
+
+.shsc h2 {
+    font-size: 20px !important;
+    text-align: center;
+    background-color: #af1f47;
+    color: #ffffff;
+    padding: 15px 25px;
+    line-height: 28px;
+    border-radius: 10px;
+}
+
+/*
+#mobile-phlebotomy-single-links {
+    display: none;
+}
+.b-faq {
+	margin: 5px auto;
+}
+.b-faq .faq__title {
+	position: relative;
+	display: block;
+	padding: 13px 60px 15px 13px;
+	margin-bottom: 2px;
+	color: #FFF;
+	font-size: 18px;
+	text-decoration: none;
+	background-color: #AF1F47;
+	border-radius: 3px;
+	-webkit-transition: background-color 0.2s;
+	transition: background-color 0.2s;
+}
+.b-faq .faq__title:hover {
+    border: 1px solid #AF1F47;
+	background-color: #fff;
+    color: #AF1F47;
+	transition: all 0.5s ease-out;
+}
+.b-faq .faq__active {
+	background-color: #e5e4e4;
+}
+.b-faq .faq__title .faq__spoiler {
+	position: absolute;
+	top: 13px; right: 10px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	color: #fff;
+	line-height: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	margin-right: 5px;
+	background-color: #303030;
+	border-radius: 50%;
+	-webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+.b-faq .faq__rotate {
+	transform: rotate(225deg);
+}
+.b-faq .faq__content {
+	padding: 30px;
+	margin-bottom: 2px;
+	font-size: 14px;
+	display: none;
+	background-color: #f3f3f3;
+}
+.b-faq .faq__symbol {
+	font-weight: 700;
+}
+*/
+
+/** 
+ * ====================================================================
+ * Accordion 
+ * ====================================================================
+*/
+.accordion-title {
+    cursor: pointer;
+    /* margin-top: 40px; */
+    position: relative;
+    font-weight: 500;
+}
+
+.accordion-title::after {
+    position: absolute;
+    content: "\f054";
+    font-family: 'FontAwesome';
+    font-size: 12px;
+    right: 0;
+    top: 9px;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.accordion-title.accordion-show::after {
+    transform: rotate(90deg);
+}
+
+.accordion-content {
+    color: rgba(60, 60, 67, 0.85);
+    font-size: 16px;
+    display: none;
+    padding: 20px 0 0;
+}
+
+
+#phlebotomy-single-links {
+    display: block;
+    float: none;
+}
+
+#mobile-phlebotomy-single-links {
+    display: none;
+}
+
+#mobile-sticky-price {
+    display: none;
+}
+
+@media screen and (max-width: 1240px) {
+    .phlebotomy-top-3 .phlebotomy-container {
+        width: 100%;
+        display: flex;
+    }
+
+    aside#phlebotomy-sidebar,
+    div#phlebotomy-main {
+        width: 100%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .phlebotomy-container {
+        width: 100%;
+    }
+
+    .phlebotomy-top-3,
+    #phlebotomy-hero,
+    #nail-technician,
+    #phlebotomy-main-section {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .single-phlebotomy-top-3 {
+        padding: 30px 0;
+        width: unset;
+    }
+
+    #phlebotomy-page h1 {
+        font-size: 31px;
+        line-height: 44px;
+    }
+
+    #phlebotomy-page h2 {
+        font-size: 25px;
+    }
+
+    #phlebotomy-page h3 {
+        font-size: 20px;
+    }
+
+    #phlebotomy-page h4 {
+        font-size: 16px;
+    }
+
+    #phlebotomy-page h5 {
+        font-size: 17px;
+    }
+
+    #phlebotomy-page h6 {
+        font-size: 14px;
+    }
+
+    .phlebotomy-container {
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .phlebotomy-common {
+        background: transparent !important;
+        /* border: 0 none !important; */
+        border-radius: 10px !important;
+        /* margin-bottom: 50px !important; */
+        /* padding: 0 !important; */
+    }
+
+    .accordion-content {
+        font-size: 14px;
+    }
+
+    #phlebotomy-sidebar {
+        margin-left: 0;
+    }
+
+    .single-phlebotomy-top-3 {
+        width: 100%;
+    }
+
+    .single-booking-option ul {
+        padding-left: 20px;
+    }
+
+    #show-classroom-schedule .single-booking-left {
+        padding-left: 0;
+    }
+
+    .single-booking-left,
+    .single-booking-right {
+        /* width: 100%; */
+    }
+
+    #mobile-phlebotomy-single-links {
+        display: block;
+        margin-bottom: 50px;
+    }
+
+    #phlebotomy-single-links {
+        display: none;
+    }
+
+    .single-booking-info {
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    #phlebotomy-hero-content p {
+        font-size: 16px;
+    }
+
+    #phlebotomy-hero-content a {
+        display: none !important;
+    }
+
+    #phlebotomy-single-links {
+        display: none;
+    }
+
+    #booking-options {
+        font-size: 14px;
+    }
+
+    #mobile-phlebotomy-single-links {
+        display: block;
+        float: none;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        position: inherit !important;
+        width: 100% !important;
+    }
+
+    #mobile-sticky-price {
+        background-color: #fff;
+        display: block;
+        padding: 10px 20px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        z-index: 99;
+        box-shadow: 0px 0px 15px -5px #DCDCDC;
+    }
+
+    #mobile-sticky-price div {
+        float: left;
+        width: calc(100% - 133px);
+    }
+
+    #mobile-sticky-price img {
+        width: 15px;
+    }
+
+    #mobile-sticky-price #discount-span {
+        margin-left: 10px;
+    }
+
+    #mobile-sticky-price a {
+        float: right;
+        height: 56px;
+        width: 133px;
+        border-radius: 10px;
+        line-height: 56px;
+        color: #fff;
+        font-size: 16px;
+        background: #AF1F47;
+        text-align: center;
+        text-decoration: none;
+        font-weight: 700;
+    }
+
+    #mobile-sticky-price h2 {
+        margin-top: -1px;
+        margin-bottom: 1px;
+    }
+
+    #course-fee-info {
+        display: none;
+    }
+
+    #mobile-course-fee-info {
+        /* display: block; */
+    }
+
+    aside#phlebotomy-sidebar {
+        visibility: hidden;
+    }
+
+    #course-fee-info {
+        display: block;
+    }
+
+    div#enquiryBookingModal {
+        visibility: visible;
+    }
+}
+
+@media screen and (max-width: 468px) {
+    .phlebotomy-top-3 .phlebotomy-container {
+        flex-direction: column;
+    }
+
+    .single-phlebotomy-top-3 {
+        padding: 15px 0 0;
+        display: flex;
+        /* justify-content: center; */
+    }
+
+    .single-phlebotomy-top-3 p {
+        display: none;
+    }
+
+    aside#phlebotomy-sidebar {
+        visibility: hidden;
+    }
+
+    #course-fee-info {
+        display: block;
+    }
+
+    div#enquiryBookingModal {
+        visibility: visible;
+        padding: 70px 5px;
+    }
+
+    #enquiryBookingModal .modal-content {
+        max-width: 100% !important;
+    }
+
+    #course-fee .float-row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .single-booking-option .single-booking-btn {
+        float: none;
+        display: inline-block;
+    }
+
+    .single-phlebotomy-top-3 .float-right {
+        display: flex;
+        align-items: center;
+        /* border-bottom: 1px solid; */
+        /* align-content: center; */
+        /* flex-direction: row; */
+        /* flex-wrap: nowrap; */
+    }
+
+    .single-phlebotomy-top-3 .float-row {
+        display: flex;
+        border-bottom: 1px solid #ddd;
+        padding-bottom: 15px;
+        justify-content: center;
+    }
+
+    .single-phlebotomy-top-3:last-child .float-row {
+        border: none;
+    }
+
+    #phlebotomy-page .single-phlebotomy-top-3 h6 {
+        margin: 0;
+    }
+
+    .single-phlebotomy-top-3:last-child {
+        /* padding-bottom: 25px; */
+    }
+
+    .phlebotomy-top-3,
+    #phlebotomy-hero,
+    #nail-technician,
+    #phlebotomy-main-section {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .single-booking-left {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .single-booking-right>div:first-child {
+        text-align: center !important;
+    }
+
+    #enquire-now-btn {
+        margin: 0
+    }
+
+    .show-classroom-schedule-details.float-row {
+        display: none;
+    }
+
+    .single-booking-right {
+        width: 150px;
+        float: none;
+        margin: 0 auto;
+    }
+
+    #phlebotomy-single-links ul.sticky,
+    #mobile-phlebotomy-single-links ul.sticky {
+        top: 0;
+        left: 0;
+    }
+
+    #overview p,
+    #accreditaion p {
+        text-align: justify;
+    }
+
+    #reviews h3 {
+        margin-bottom: 18px;
+        text-align: center;
+    }
+
+    .shsc h2 {
+        font-size: 15px !important;
+        text-align: center;
+        background-color: #af1f47;
+        color: #ffffff;
+        padding: 15px 25px;
+        line-height: 28px;
+        border-radius: 10px;
+    }
+
+    #fupi_cookie_notice[data-position=bottom_wide] .fupi_panel {
+        bottom: 94px;
+    }
+
+    #mobile-phlebotomy-single-links {
+        margin-bottom: 0;
+    }
+}

@@ -1,0 +1,480 @@
+
+/* Hero Section */
+section#contact-hero {
+    background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(https://lead-academy.org/wp-content/uploads/2023/08/CONTACT-US-BG.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 0px;
+}
+
+.contact-hero-content {
+    text-align: center;
+    color: #fff;
+    background-color: transparent;
+    background-image: linear-gradient(45deg, #B91948 0%, #F2295B 100%);
+    border-radius: 15px;
+    padding: 30px 0px;
+    margin: 0px 30px;
+}
+
+.contact-hero-content h1 {
+    color: #FFFFFF;
+    font-family: "Sen", Sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.contact-hero-content p {
+    color: #FFFFFF;
+    font-family: "Sen", Sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+/* Hero Section End */
+
+/* Form Section */
+section#contact-sub-form {
+    padding: 55px 0px 190px 0px;
+    background-color: #F8F8F8;
+}
+
+#contact-sub-form hr {
+    margin: 1rem 0;
+    color: inherit;
+    border: 0;
+    border-top: 3px solid #a32145;
+    opacity: 1;
+    width: 18%;
+}
+
+section#contact-sub-form h2 {
+    color: #000000;
+    font-family: "Sen", Sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+section#contact-sub-form p {
+    text-align: left;
+    color: #000000;
+    font-family: "Sen", Sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+section#contact-sub-form img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.cnct-adrs-card {
+    background-color: #fff;
+    padding: 40px 30px;
+    margin: 0px 0px;
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+label.gfield_label.gform-field-label {
+    font-size: 18px !important;
+}
+
+.gform_legacy_markup_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
+    font-family: inherit;
+    font-size: inherit;
+    letter-spacing: normal;
+    padding: 10px 10px !important;
+}
+
+.gform_legacy_markup_wrapper.gf_browser_chrome select {
+    padding: 10px !important;
+    height: 45px;
+}
+
+input#gform_submit_button_5 {
+    display: inline-block;
+    width: 100%;
+    background-color: #B91948;
+    margin-top: 0px;
+}
+
+.contact-main-form {
+    padding: 15px 30px 10px 40px;
+    background-color: #FFFFFF;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: -15px 10px 10px 0px rgba(0, 0, 0, 0.04);
+}
+
+.get-in-touch {
+    padding: 15px 30px 10px 40px;
+}
+/* Form Section End */
+
+/* Contact Card box Section */
+section#contact-address {
+    margin: -100px 0px 0px 0px;
+}
+
+.cnct-adrs-row {
+    background: linear-gradient(0deg, rgb(223 14 75 / 85%), rgb(185 25 72)), url(https://lead-academy.org/wp-content/uploads/2023/08/cnct-bg.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 50px;
+    border-radius: 20px;
+}
+
+li.cnct-icon-list-item {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+ul.cnct-icon-list-items {
+    margin: 0;
+    padding: 0;
+}
+
+span.cnct-icon-list-text {
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Sen", Sans-serif;
+}
+
+span.cnct-icon-list-icon {
+    font-size: 24px;
+    color: #B91948;
+}
+
+.cnct-adrs-card h3 {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Sen", Sans-serif;
+    margin-bottom: 5px;
+}
+
+.cnct-adrs-card hr.solid {
+    border-top: 1px solid #B91948;
+    opacity: 1;
+}
+
+#gform_20 {
+    background: #fff;
+    padding: 10px 10px 10px 40px;
+    border-radius: 40px;
+}
+
+#gform_20 .gform_body {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#gform_20 .gform_footer {
+    width: 49%;
+    display: inline-block;
+    margin: 0;
+    vertical-align: top;
+    padding: 0;
+}
+
+#gform_submit_button_20 {
+    float: right;
+    padding: 15px 35px;
+    width: auto;
+    font-family: 'Open Sans';
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 0;
+    font-weight: 600;
+    border-radius: 35px;
+    background: #b91949;
+}
+
+#input_20_1 {
+    border: 0 none;
+    padding: 0;
+    font-family: 'Open Sans';
+    margin: 14px 0 0 !important;
+    color: #000;
+}
+
+.cnct-subscribe {
+    margin-top: 45px;
+}
+
+.cnct-subscribe h2 {
+    color: #FFFFFF;
+    font-family: "Sen", Sans-serif;
+    font-size: 38px;
+    font-weight: 500;
+}
+/* Contact Card box Section End */
+
+/* Social Section */
+
+section#cnct-social-icon {
+    text-align: center;
+    padding: 90px 0;
+}
+
+section#cnct-social-icon hr {
+    margin: 32px auto;
+    color: inherit;
+    border: 0;
+    border-top: 3px solid #a32145;
+    opacity: 1;
+    width: 30%;
+}
+
+section#cnct-social-icon h2 {
+    color: #000000;
+    font-family: "Sen", Sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.icons a {
+    display: inline-flex;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 40px;
+    margin: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  
+    background-size: 100% 200%;
+    background-position: 0% 5%;
+  
+    transition: background-position 0.5s, color 0.5s;
+  }
+  
+  .icons a:nth-child(1) {
+    color: #1976d3;
+    background-image: linear-gradient(#fff 50%, #1976d3 50%);
+  }
+  
+  .icons a:nth-child(2) {
+    color: #db6f44;
+    background-image: linear-gradient(#fff 50%, #db6f44 50%);
+  }
+  
+  .icons a:nth-child(3) {
+    color: #0a66c2;
+    background-image: linear-gradient(#fff 50%, #0a66c2 50%);
+  }
+  
+  .icons a:nth-child(4) {
+    color: #03a9f5;
+    background-image: linear-gradient(#fff 50%, #03a9f5 50%);
+  }
+  
+  .icons a:hover {
+    background-position: 0% 100%;
+    color: #fff;
+  }
+/* Social Section End*/
+
+/* Mobile Css */
+@media (max-width: 480px) {
+    /* Hero Section */
+    section#contact-hero {
+        padding: 50px 0px;
+    }
+
+    .contact-hero-content {
+        padding: 25px 0px 10px 0px;
+        margin: 0px 50px;
+    }
+
+    .contact-hero-content h1 {
+        color: #FFFFFF;
+        font-family: "Sen", Sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+    
+    .contact-hero-content p {
+        color: #FFFFFF;
+        font-family: "Sen", Sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .get-in-touch {
+        padding: 15px 0px 10px 0px;
+    }
+    /* Hero Section End */
+
+    /* Form Section */
+    section#contact-sub-form h2 {
+        color: #000000;
+        font-family: "Sen", Sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+
+    #contact-sub-form hr {
+        width: 30%;
+    }
+
+    section#contact-sub-form p {
+        font-size: 15px;
+    }
+
+    section#contact-sub-form img {
+        display: none;
+    }
+
+    select#input_5_6 {
+        padding: 10px;
+        height: 45px;
+    }
+
+    .cnct-subscribe h2 {
+        color: #FFFFFF;
+        font-family: "Sen", Sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .contact-main-form {
+        padding: 15px 20px 10px 20px;
+        background-color: #FFFFFF;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: -15px 10px 10px 0px rgba(0, 0, 0, 0.04);
+    }
+    /* Form Section End */
+    
+    /* Contact Card box Section */
+    .cnct-adrs-row {
+        padding: 50px 25px;
+    }
+
+    .cnct-adrs-card {
+        margin: 15px 0px;
+    }
+
+    .cnct-adrs-card h3 {
+        font-size: 18px;
+    }
+
+    #gform_20 {
+        padding: 20px 5px 5px 5px;
+    }
+
+    #gform_20 .gform_body,
+    #gform_20 .gform_footer,
+    #gform_submit_button_20 {
+        width: 100%;
+
+    }
+
+    #gform_submit_button_20 {
+        border-radius: 0px 0px 17px 17px;
+    }
+
+    #gform_submit_button_20 {
+    float: initial;
+    }
+
+    #gform_20 .gform_footer {
+        width: 100%;
+    }
+
+    #input_20_1 {
+        border: 0 none;
+        padding: 5px 16px;
+        margin: 0 !important;
+    }
+        
+    #gform_20 {
+        border-radius: 20px;
+    }
+
+    #gform_20 .gform_body {
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    span.cnct-icon-list-icon {
+        font-size: 20px;
+        color: #B91948;
+    }
+
+    span.cnct-icon-list-text {
+        font-size: 22px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+    }
+
+    .cnct-adrs-card {
+        background-color: #fff;
+        padding: 30px 20px;
+        height: 335px;
+        border-radius: 10px;
+        box-shadow: 0px 6px 10px 0px rgba(0, 0, 0, 0.2);
+        text-align: center;
+    }
+
+    section#cnct-social-icon h2 {
+        color: #000000;
+        font-family: "Sen", Sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    section#cnct-social-icon {
+        text-align: center;
+        padding: 60px 0;
+    }
+    /* Contact Card box Section End */
+}
+
+/* Tab Css */
+@media screen and (min-width: 481px) and (max-width: 1399px) {
+    #gform_submit_button_20 {
+        border-radius: 20px;
+    }
+    section#contact-sub-form img {
+        width: 100%;
+        border-radius: 10px;
+        display: none;
+    }
+    .get-in-touch {
+        padding: 15px 30px 10px 5px;
+    }
+    section#contact-sub-form h2 {
+        color: #000000;
+        font-family: "Sen", Sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .cnct-last-card {
+        margin-top: 20px;
+    }
+    section#cnct-social-icon h2 {
+        color: #000000;
+        font-family: "Sen", Sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .cnct-subscribe h2 {
+        color: #FFFFFF;
+        font-family: "Sen", Sans-serif;
+        font-size: 28px;
+        font-weight: 500;
+    }
+}

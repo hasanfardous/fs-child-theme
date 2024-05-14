@@ -1,0 +1,864 @@
+/* Phlebotomy Top 3 Section */
+section#phuk-top-3-sec {
+    background-color: #f7f7f7;
+}
+
+section#phuk-top-3-sec h6 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+section#phuk-top-3-sec p {
+    font-size: 16px;
+}
+/* Phlebotomy Top 3 Section End*/
+
+/* Phlebotomy  Hero Section */
+#phuk-hero-sec {
+    background-image: url(https://lead-academy.org/wp-content/uploads/2023/09/Phlebotomy-Training-Bg-Image.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 45px 0;
+}
+
+#phuk-hero-sec h1 {
+    color: #fff;
+    font-size: 42px;
+    font-weight: 600;
+    font-family: "Sen", Sans-serif;
+}
+
+section#phuk-hero-sec p {
+    margin-top: 30px;
+    line-height: 31px;
+    color: #fff;
+    font-family: "Sen", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+section#phuk-hero-sec img {
+    width: 300px;
+    margin-top: 25px;
+}
+
+section#phuk-hero-sec a {
+    display: block;
+    width: 45%;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 40px;
+    margin-top: 15px;
+    font-family: "Sen", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    background-image: linear-gradient(103deg, #a32145 0%, #c52c52 100%);
+    padding: 10px 65px 10px 65px;
+    margin-top: 33px;
+}
+
+section#phuk-hero-sec a:hover {
+    color: #780021;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #fff 0%, #fff 100%);
+}
+/* Phlebotomy  Hero Section End*/
+
+/* Phlebotomy  About Section */
+section#phuk-about-sec {
+    background-color: #fff;
+    padding: 70px 0px;
+}
+
+.phuk-about-text-col {
+    margin: auto;
+}
+
+.phuk-about-text h3 {
+    margin-bottom: 10px;
+    color: #7a7a7a;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+section#phuk-about-sec h2 {
+    color: #000000;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Sen", Sans-serif;
+}
+
+section#phuk-about-sec p {
+    line-height: 30px;
+    color: #000000;
+    font-family: "Sen", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.phuk-about-video iframe {
+    border-radius: 21px;
+}
+
+.phuk-about-video div#mep_0 {
+    border-radius: 21px;
+}
+
+.phuk-about-video .mejs-poster.mejs-layer {
+    border-radius: 21px;
+}
+/* Phlebotomy  About Section End */
+
+/* Phlebotomy  Our Venue Section */
+section#phuk-venue-sec {
+    background-color: #F0F0F0;
+    padding: 60px 200px;
+}
+
+section#phuk-venue-sec h2 {
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Sen", Sans-serif;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.phuk-card-box {
+    margin: 35px 0px;
+}
+
+.phuk-card-box img {
+    width: 100%;
+    margin-bottom: -20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.phuk-btm-box {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 3px 20px rgb(0 0 0 / 3%);
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.phuk-btm-box {
+    background-color: #fff;
+    padding: 50px 30px 30px 30px;
+    border-radius: 10px;
+}
+
+.phuk-btm-box h3 a{
+    font-size: 22px;
+    color: #000;
+}
+.phuk-btm-box h3{
+    margin: 0px 0px 10px 0px;
+}
+
+.phuk-card-box h4 {
+    font-size: 18px;
+    color: #c52855;
+    font-weight: 600;
+    font-family: "Sen", Sans-serif;
+}
+
+.phuk-card-box ul {
+    margin: 20px 0px 0px 0px;
+    padding: 0;
+    list-style: none;
+}
+
+.phuk-course-btn {
+    text-align: right;
+}
+
+.phuk-course-btn a {
+    background-color: #C52855;
+    color: #fff;
+    padding: 8px 25px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 2px solid #C52855;
+}
+
+
+.phuk-course-btn a:hover {
+    background-color: #fff;
+    color: #C52855;
+}
+
+.phuk-btm-box ul li {
+    margin: 0;
+    padding: 8px 24px;
+    list-style: none;
+    background-image: url(https://lead-academy.org/wp-content/uploads/2023/09/icon-_Checkmark-filled_.webp);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 16px;
+    font-size: 16px;
+    font-family: "Sen", Sans-serif;
+    font-weight: 400;
+}
+/* Phlebotomy  Our Venue Section End */
+
+/* The Advanced Phlebotomy Section */
+section#phuk-avanced-sec {
+    background-color: #fff;
+    padding: 80px 0px 0px 0px;
+}
+
+.phuk-advance-img img {
+    width: 85%;
+}
+
+.phuk-advance-img {
+    text-align: left;
+}
+
+.phuk-advance-col {
+    margin: auto;
+}
+
+.phuk-advance-text h3 {
+    margin-bottom: 10px;
+    color: #7a7a7a;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.phuk-advance-text h2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Sen", Sans-serif;
+    margin-bottom: 30px;
+}
+
+.phuk-advance-text p {
+    line-height: 30px;
+    color: #000000;
+    font-family: "Sen", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.phuk-button a {
+    background-color: #C52855;
+    color: #fff;
+    padding: 8px 25px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 2px solid #C52855;
+}
+
+.phuk-button a:hover {
+    background-color: #fff;
+    color: #C52855;
+}
+
+.phuk-button {
+    margin-top: 25px;
+}
+/* The Advanced Phlebotomy Section End */
+
+/* Cannulation Section */
+section#phuk-cannulation-sec {
+    background-color: #fff;
+    padding: 80px 0px;
+}
+
+.phuk-cannulation-img img {
+    width: 85%;
+}
+
+.phuk-cannulation-img img {
+    border-radius: 10px;
+}
+
+.phuk-cannulation-img {
+    text-align: right;
+}
+
+.phuk-cannulation-col {
+    margin: auto;
+}
+
+.phuk-cannulation-text h3 {
+    margin-bottom: 10px;
+    color: #7a7a7a;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.phuk-cannulation-text h2 {
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: "Sen", Sans-serif;
+    margin-bottom: 30px;
+}
+
+.phuk-cannulation-text p {
+    line-height: 30px;
+    color: #000000;
+    font-family: "Sen", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.phuk-mobile-block {
+    display: none;
+}
+
+.phuk-big-device-block {
+    display: block;
+}
+/* Cannulation Section End */
+
+/* Phlebotomy Review Section */
+section#phuk-review-sec {
+    background-color: #F0F0F0;
+    padding: 70px 0px;
+}
+
+section#phuk-review-sec h2 {
+    text-align: center;
+    margin-bottom: 60px;
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Sen", Sans-serif;
+}
+
+.phuk-review-part .la-reviews-carousel-section-wrap .owl-carousel .owl-nav .owl-prev, .phuk-review-part .la-reviews-carousel-section-wrap .owl-carousel .owl-nav .owl-next, .owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 24px);
+    font-size: 20px;
+    color: #000000;
+}
+
+.phuk-review-part .la-reviews-carousel-section-wrap .owl-carousel.owl-drag .owl-item {
+    box-shadow: 0px 3px 20px rgb(0 0 0 / 3%);
+    border: 1px solid #f3f3f3;
+    border-radius: 2px;
+    padding: 14px;
+    background: #ffffff;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.phuk-review-part .cat-box-head img {
+    width: 100px !important;
+}
+
+.phuk-review-part .cat-feedback-ds p.la-review-text {
+    color: #191919;
+    font-size: 14px;
+    height: 106px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.phuk-review-part p.la-single-reviewer-name {
+    color: #191919;
+    font-size: 14px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+.phuk-review-part p.la-single-reviewer-name span {
+    color: #7e7e7e;
+    font-weight: normal;
+    font-size: 11px;
+    font-family: Arial;
+}
+
+.phuk-review-part .trustpilot-logo {
+    margin-top: 40px;
+    width: 400px;
+}
+
+
+/* Phlebotomy Review Section End */
+
+/* Phlebotomy FAQ Section */
+section#phuk-faq {
+    padding: 70px 0px;
+}
+
+#la-single-faq .accordion-body p {
+    border-left: 2px solid #af1f47;
+    padding-left: 30px;
+    margin-left: 8px;
+}
+
+#single-course-details, #la-single-faq, #la-single-curriculum, #la-single-accreditation, #la-single-certification, #la-single-who-should-take-this-course, #la-single-assessment-method, #la-course-curriculum .mcdt-accordion>div {
+    border: none;
+}
+
+section#phuk-faq h2 {
+    text-align: center;
+    color: #000;
+    font-size: 36px;
+    font-weight: 600;
+    font-family: "Sen", Sans-serif;
+}
+/* Phlebotomy FAQ Section End */
+
+
+/* Mobile Css */
+@media (max-width: 767px) {
+/* Phlebotomy Top 3 Section */
+    section#phuk-top-3-sec {
+        display: none;
+    }
+/* Phlebotomy Top 3 Section End*/
+
+/* Phlebotomy  Hero Section */
+    #phuk-hero-sec {
+        background-color: #af0534;
+        opacity: 0.9;
+        background-image: radial-gradient(#1f1f1f 0.5px, #000000 0.5px);
+        background-size: 10px 10px;
+        padding: 50px 0px;
+    }
+
+    #phuk-hero-sec h1 {
+        color: #fff;
+        font-size: 34px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+    }
+    
+    section#phuk-hero-sec p {
+        margin-top: 30px;
+        line-height: 31px;
+        color: #fff;
+        font-family: "Sen", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+/* Phlebotomy  Hero Section End */
+
+/* Phlebotomy  About Section */
+    section#phuk-about-sec {
+        background-color: #fff;
+        padding: 50px 0px;
+    }
+
+    .phuk-about-text {
+        margin-top: 0px;
+    }
+
+    section#phuk-about-sec h2 {
+        color: #000000;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+    }
+
+    section#phuk-about-sec p {
+        line-height: 28px;
+        color: #000000;
+        font-family: "Sen", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .phuk-about-video {
+        margin-top: 20px;
+    }  
+/* Phlebotomy  About Section End */
+
+/* Phlebotomy  Our Venue Section */
+    section#phuk-venue-sec {
+        background-color: #F0F0F0;
+        padding: 50px 0px;
+    }
+
+    section#phuk-venue-sec h2 {
+        color: #000;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .phuk-btm-box h3 a {
+        font-size: 18px;
+        color: #000;
+    }
+
+    .phuk-card-box h4 {
+        font-size: 16px;
+        color: #c52855;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+    }
+
+    .phuk-btm-box ul li {
+        font-size: 15px;
+    }
+
+    .phuk-course-btn {
+        text-align: center;
+        margin-top: 20px;
+    }
+/* Phlebotomy  Our Venue Section End */
+
+/* The Advanced Phlebotomy Section */
+    section#phuk-avanced-sec {
+        background-color: #fff;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .phuk-advance-img img {
+        width: 100%;
+    }
+
+    .phuk-advance-text {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .phuk-advance-text h2 {
+        color: #000;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+        margin-bottom: 15px;
+    }
+
+    .phuk-advance-text p {
+        line-height: 30px;
+        color: #000000;
+        font-family: "Sen", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+/* The Advanced Phlebotomy Section End */
+
+
+/* cannulation Section */
+    section#phuk-cannulation-sec {
+        background-color: #fff;
+        padding: 60px 0px 50px 0px;
+    }
+
+    .phuk-cannulation-img img {
+        width: 100%;
+    }
+
+    .phuk-cannulation-text {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .phuk-cannulation-text h2 {
+        color: #000;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+        margin-bottom: 15px;
+    }
+
+    .phuk-cannulation-text p {
+        line-height: 30px;
+        color: #000000;
+        font-family: "Sen", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .phuk-mobile-block {
+        display: block !important;
+    }
+    
+    .phuk-big-device-block {
+        display: none !important;
+    }
+/* Cannulation Section End */
+
+/* Phlebotomy Review Section End */
+    section#phuk-review-sec {
+        background-color: #F0F0F0;
+        padding: 50px 0px;
+    }
+
+    section#phuk-review-sec h2 {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #000;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+    }
+
+    .phuk-review-part .trustpilot-logo {
+        margin-top: 15px;
+        width: 100%;
+    }
+/* Phlebotomy Review Section End */
+
+/* Phlebotomy Faq Section */
+    #single-course-details, #la-single-faq, #la-single-curriculum, #la-single-accreditation, #la-single-certification, #la-single-who-should-take-this-course, #la-single-assessment-method, #la-course-curriculum .mcdt-accordion>div {
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        padding: 0px;
+        background: #fff;
+    }
+
+    section#phuk-faq h2 {
+        text-align: center;
+        color: #000;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+    }
+
+    #la-single-faq .accordion-body p {
+        border-left: 2px solid #af1f47;
+        padding-left: 14px;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+/* Phlebotomy Faq Section End */
+}
+
+
+/* TAB CSS */
+@media screen and (min-width: 767px) and (max-width: 1023px) {
+    /* Phlebotomy Top 3 Section */
+    section#phuk-top-3-sec {
+        display: none;
+    }
+    /* Phlebotomy Top 3 Section End*/
+
+    /* Phlebotomy  Hero Section */
+    #phuk-hero-sec {
+        background-color: #af0534;
+        opacity: 0.9;
+        background-image: radial-gradient(#1f1f1f 0.5px, #000000 0.5px);
+        background-size: 10px 10px;
+        padding: 50px 0px;
+    }
+
+    #phuk-hero-sec h1 {
+        color: #fff;
+        font-size: 34px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+    }
+
+    section#phuk-hero-sec p {
+        margin-top: 30px;
+        line-height: 31px;
+        color: #fff;
+        font-family: "Sen", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+    /* Phlebotomy  Hero Section End */
+
+    /* Phlebotomy  About Section */
+    section#phuk-about-sec {
+        background-color: #fff;
+        padding: 50px 0px;
+    }
+
+    .phuk-about-text {
+        margin-top: 0px;
+    }
+
+    section#phuk-about-sec h2 {
+        color: #000000;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+    }
+
+    section#phuk-about-sec p {
+        line-height: 28px;
+        color: #000000;
+        font-family: "Sen", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+
+    .phuk-about-video {
+        margin-top: 20px;
+    }  
+
+    .phuk-about-video .wp-video {
+        margin: auto;
+    }
+    /* Phlebotomy  About Section End */
+
+    /* Phlebotomy  Our Venue Section */
+    section#phuk-venue-sec {
+        background-color: #F0F0F0;
+        padding: 50px 0px;
+    }
+
+    section#phuk-venue-sec h2 {
+        color: #000;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .phuk-btm-box h3 a {
+        font-size: 18px;
+        color: #000;
+    }
+
+    .phuk-card-box h4 {
+        font-size: 16px;
+        color: #c52855;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+    }
+
+    .phuk-btm-box ul li {
+        font-size: 15px;
+    }
+    /* Phlebotomy  Our Venue Section End */
+
+    /* The Advanced Phlebotomy Section */
+    section#phuk-avanced-sec {
+        background-color: #fff;
+        padding: 50px 0px 0px 0px;
+    }
+
+    .phuk-advance-img img {
+        width: 100%;
+        display: none;
+    }
+
+    .phuk-advance-text {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .phuk-advance-text h2 {
+        color: #000;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+        margin-bottom: 15px;
+    }
+
+    .phuk-advance-text p {
+        line-height: 30px;
+        color: #000000;
+        font-family: "Sen", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    /* The Advanced Phlebotomy Section End */
+
+    /* Cannulation Section */
+    section#phuk-cannulation-sec {
+        background-color: #fff;
+        padding: 50px 0px;
+    }
+
+    .phuk-cannulation-img img {
+        width: 100%;
+        display: none;
+    }
+
+    .phuk-cannulation-text {
+        margin: 20px 0px 0px 0px;
+    }
+
+    .phuk-cannulation-text h2 {
+        color: #000;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+        margin-bottom: 15px;
+    }
+
+    .phuk-cannulation-text p {
+        line-height: 30px;
+        color: #000000;
+        font-family: "Sen", Sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+    }
+    /* Cannulation Section End */
+
+    /* Phlebotomy Review Section End */
+    section#phuk-review-sec {
+        background-color: #F0F0F0;
+        padding: 50px 0px;
+    }
+
+    section#phuk-review-sec h2 {
+        text-align: center;
+        margin-bottom: 40px;
+        color: #000;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+    }
+
+    .phuk-review-part .trustpilot-logo {
+        margin-top: 15px;
+        width: 50%;
+    }
+    /* Phlebotomy Review Section End */
+
+    /* Phlebotomy Faq Section */
+    #single-course-details, #la-single-faq, #la-single-curriculum, #la-single-accreditation, #la-single-certification, #la-single-who-should-take-this-course, #la-single-assessment-method, #la-course-curriculum .mcdt-accordion>div {
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 30px;
+        padding: 0px;
+        background: #fff;
+    }
+
+    section#phuk-faq h2 {
+        text-align: center;
+        color: #000;
+        font-size: 28px;
+        font-weight: 600;
+        font-family: "Sen", Sans-serif;
+    }
+
+    #la-single-faq .accordion-body p {
+        border-left: 2px solid #af1f47;
+        padding-left: 14px;
+        margin-left: 0px;
+        font-size: 15px;
+    }
+    /* Phlebotomy Faq Section End */
+}
+
+@media screen and (min-width: 992px) and (max-width: 1156px) {
+    section#phuk-venue-sec {
+        background-color: #F0F0F0;
+        padding: 50px 0px;
+    }
+
+    .phuk-advance-img img {
+        width: 100%;
+        display: block;
+    }
+
+    section#phuk-top-3-sec {
+        background-color: #f7f7f7;
+        display: none;
+    }
+    
+    
+}

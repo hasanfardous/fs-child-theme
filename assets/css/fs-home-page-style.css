@@ -1,0 +1,756 @@
+/* Hero Section */
+
+section#la-home-page-hero-section {
+    background-image: linear-gradient(0deg, #ffb4ca05, #ffb4ca5e), url(https://lead-academy.org/wp-content/uploads/2022/11/Home-page-hero-bg-scaled.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 60px 0px 100px 0px;
+}
+
+section#la-home-page-hero-section h1 {
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 61px;
+    font-weight: 700;
+}
+
+h2.la-partner-section-title-mbl {
+    display: none;
+}
+
+span.lah-color {
+    color: #AF1F47;
+}
+
+.la-trusted-part h3 {
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    padding: 0px 50px 0px 0px;
+}
+
+.la-trusted-part p {
+    color: #303030B3;
+    font-family: "Sen", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0px 35px 0px 0px;
+}
+
+.la-trusted-part {
+    margin-top: 80px;
+}
+
+/* Hero Section End */
+
+/* Partner Section */
+
+#la-partner-section .owl-carousel .owl-nav button.owl-prev,
+#la-partner-section .owl-carousel .owl-nav button.owl-next {
+    position: absolute;
+    top: calc(50% - 24px);
+    font-size: 20px;
+    color: #a6a6a6;
+}
+
+#la-partner-section .owl-carousel .owl-nav button.owl-prev span,
+#la-partner-section .owl-carousel .owl-nav button.owl-next span {
+    font-size: 24px !important;
+    border: 1px solid;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    vertical-align: middle;
+    line-height: 18px;
+}
+
+
+#la-partner-section {
+    margin-top: 0px;
+    margin-bottom: 65px;
+}
+
+#la-partner-section .fsc-partner-item {
+    border: 1px solid #ddd;
+}
+
+#la-partner-section .fsc-partner-item img {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    border: none;
+    padding: 20px;
+}
+
+
+#la-partner-section .owl-carousel .owl-nav button.owl-next {
+    right: -30px;
+    left: auto;
+}
+
+#la-partner-section .owl-carousel .owl-nav button.owl-prev {
+    left: -30px;
+}
+
+section#la-partner-section h2 {
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/* Partner Section End*/
+
+/* Course Category Section */
+
+section#la-home-course-cat-section {
+    background: #FFE3EB;
+    padding: 60px 0px;
+}
+
+section#la-home-course-cat-section h2 {
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.la-home-course-cat-box {
+    background-color: #fff;
+    padding: 18px;
+    margin: 15px 0px;
+    border-radius: 10px;
+}
+
+.la-home-course-cat-box h4 a {
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 26px;
+}
+
+.cat-title {
+    margin: auto;
+}
+
+.home-course-cat-btn a {
+    background-color: #AF1F47;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #AF1F47;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px 30px 15px 30px;
+    color: #fff;
+}
+
+.home-course-cat-btn {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.home-course-cat-btn a:hover {
+    color: #AF1F47;
+    background-color: #FFFFFF;
+    border-color: #AF1F47;
+}
+
+/* Course Category End Section */
+
+/* Most Popular Courses Section */
+section#home-popular-courses {
+    background-color: #FCFCFC;
+    padding: 80px 0px;
+}
+
+.home-popular-courses-tt-ds h2 {
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.home-popular-courses-tt-ds p {
+    text-align: center;
+    color: #353535;
+    font-family: "Sen", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.home-popular-courses-tt-ds {
+    margin-bottom: 20px;
+}
+
+.la-h-tag {
+    display: inline;
+}
+
+.la-h-tag-1 h5 {
+    background: #EAFBFF;
+    border-radius: 4.84742px;
+    padding: 1.93897px 7.75587px;
+    float: left;
+    font-size: 14px;
+}
+
+.la-h-tag-2 p {
+    background: #F90000;
+    border-radius: 4.84742px;
+    color: #FFFFFF;
+    padding: 1.93897px 7.75587px;
+    float: right;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.pplar-courses-box-right h3 a {
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.pplar-courses-box-right h3 {
+    margin-bottom: 5px;
+    line-height: 0;
+    font-size: 17px;
+}
+
+.pplar-course-box-price {
+    display: inline-flex;
+    float: right;
+}
+
+.pplar-course-box {
+    background-color: #fff;
+    margin: 12px 0px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.03);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.pplar-course-box-price del {
+    font-weight: 500;
+    font-size: 12.6338px;
+    line-height: 15px;
+    text-decoration-line: line-through;
+    color: #303030;
+    margin-top: 6px;
+}
+
+.pplar-course-box-price p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.4507px;
+    line-height: 22px;
+    color: #303030;
+    margin: auto 0px auto 6px;
+}
+
+.pplar-courses-box-left img {
+    border-radius: 10px;
+}
+/* Most Popular Courses Section End */
+
+/* Get Full Access Section */
+
+section#home-subscription {
+    background-color: #FCFCFC;
+    padding: 80px 0px;
+}
+
+section#home-subscription h2 {
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.home-subscription-btn a {
+    font-family: "Sen", Sans-serif;
+    font-weight: 600;
+    background-color: #AF1F47;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #AF1F47;
+    border-radius: 10px 10px 10px 10px;
+    padding: 15px 30px;
+    color: #fff;
+}
+
+.home-subscription-btn {
+    margin-top: 50px;
+}
+
+.home-subscription-btn a:hover {
+    color: #AF1F47;
+    background-color: #FFFFFF;
+    border-color: #AF1F47;
+}
+
+.home-subscription-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.home-subscription-list ul li {
+    list-style: none;
+    padding: 10px 0px;
+}
+
+span.home-subscription-list-icon img {
+    width: 16px;
+    margin-right: 5px;
+}
+
+span.home-subscription-list-icon img {
+    display: inline-block !important;
+}
+
+span.home-subscription-list-text {
+    font-family: "Sen", Sans-serif;
+    font-size: 17px;
+    line-height: 26px;
+    color: #303030;
+    font-weight: 500;
+}
+
+.home-subscription-right-part {
+    margin: auto;
+}
+
+/* Get Full Access Section End */
+
+/* Review Section */
+
+section#home-review {
+    background-color: #FCFCFC;
+    padding: 35px 0px 60px 0px;
+}
+
+section#home-review h2 {
+    text-align: center;
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 53px;
+}
+
+/* Review Section End */
+
+/* Gift card Section */
+
+section#home-gift-card {
+    padding: 80px 0px;
+}
+
+section#home-gift-card h2 {
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.home-gift-card-left-part {
+    background-image: url(https://lead-academy.org/wp-content/uploads/2022/11/pattern.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: 60% auto;
+}
+
+.home-gift-card-right-part-col {
+    margin: auto;
+}
+
+.home-gift-card-right-part .home-course-cat-btn {
+    text-align: left;
+}
+
+.home-gift-card-right-part p {
+    text-align: left;
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+section#home-success-stories {
+    background-color: #FCFCFC;
+    padding: 100px 0px;
+}
+
+.home-success-stories-left-part {
+    margin: auto;
+}
+
+section#home-success-stories h2 {
+    color: #000000;
+    font-family: "Sen", Sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+}
+
+section#home-success-stories p {
+    text-align: justify;
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+/* Gift card Section End */
+
+/* Newsletter Section */
+
+section#home-newsletter {
+    background-image: url(https://lead-academy.org/wp-content/uploads/2023/05/BG-scaled-1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0px 50px 0px;
+}
+
+.home-newsletter-right-part h2 {
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.home-newsletter-right-part p {
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 40px;
+}
+
+input#input_34_1_3 {
+    padding: 10px;
+    border: 1px solid #969696;
+}
+
+input#input_34_3 {
+    padding: 10px;
+    border: 1px solid #969696;
+}
+
+input#gform_submit_button_34 {
+    background-color: #AF1F47;
+    color: #FFFFFF;
+}
+
+.col-md-6.home-subscription-right-part img {
+    display: none;
+}
+
+.home-newsletter-right-part img {
+    display: none;
+}
+
+/* Newsletter Section End */
+
+/* Mobile Css */
+@media (max-width: 480px) {
+
+    /* Hero Section */
+
+    section#la-home-page-hero-section {
+        background-position: top center;
+        background-size: contain;
+        padding: 30px 0px 45px 0px;
+    }
+
+    section#la-home-page-hero-section h1 {
+        color: #303030;
+        font-family: "Sen", Sans-serif;
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 38px;
+        margin-bottom: 20px;
+    } 
+
+    .la-home-p-search-bar {
+        margin-bottom: 30px;
+    }
+
+    .la-trusted-part {
+        display: none;
+    }
+
+    /* Hero Section End */
+
+    /* Partner Section */
+
+    h2.la-partner-section-title-mbl {
+        font-size: 19px !important;
+        line-height: 26px !important;
+        margin-bottom: 8px !important;
+        display: block;
+    }
+
+    section#la-partner-section h2 {
+        color: #303030;
+        font-family: "Sen", Sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 21px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+
+    section#la-partner-section h2 {
+        color: #303030;
+        font-family: "Sen", Sans-serif;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 21px;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    #la-partner-section .fsc-partner-item img {
+        width: 110px;
+        height: auto;
+        margin: 0 auto;
+        border: none;
+        padding: 20px;
+    }
+
+    .la-trusted-partner-logo {
+        padding: 0px 25px;
+    }
+
+    /* Partner Section End */
+
+    /* Course Category Section */
+
+    section#la-home-course-cat-section {
+        background: #FFE3EB;
+        padding: 40px 0px;
+    }
+
+    section#la-home-course-cat-section h2 {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .la-home-course-cat-box h4 a {
+        font-size: 17px;
+    }
+
+    .home-course-cat-btn {
+        text-align: center;
+        margin-top: 45px;
+    }
+    /* Course Category Section End */
+
+    /* Most Popular Courses Section */
+    section#home-popular-courses {
+        background-color: #FCFCFC;
+        padding: 45px 0px;
+    }
+
+    .home-popular-courses-tt-ds h2 {
+        font-size: 30px;
+        line-height: 30px;
+        margin-bottom: 18px;
+    }
+
+    .home-popular-courses-tt-ds p {
+        text-align: center;
+        color: #353535;
+        font-family: "Sen", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    .la-h-tag-2 p {
+        font-size: 10px;
+    }
+
+    .la-h-tag-1 h5 {
+        font-size: 12px;
+    }
+
+    .pplar-courses-box-right h3 a {
+        font-size: 15px;
+    }
+
+    .pplar-course-box-price p {
+        font-size: 15px;
+    }
+    /* Most Popular Courses Section End */
+
+    /* Subscription Section */
+    section#home-subscription h2 {
+        color: #303030;
+        font-family: "Sen", Sans-serif;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    span.home-subscription-list-text {
+        font-family: "Sen", Sans-serif;
+        font-size: 15px;
+        line-height: 18px;
+        color: #303030;
+        font-weight: 600;
+    }
+    
+    .home-subscription-img {
+        display: none;
+    }
+
+    .home-subscription-right-part img {
+        display: inline-block !important;
+        margin-bottom: 20px;
+    }
+
+    span.home-subscription-list-icon img {
+        margin-bottom: 0;
+    }
+
+    .home-subscription-btn {
+        margin-top: 30px;
+    }
+
+    .home-subscription-btn a {
+        padding: 10px 30px;
+    }
+
+    /* Subscription Section End */
+
+    /* Review Section */
+    section#home-review {
+        background-color: #FCFCFC;
+        padding: 60px 0px 60px 0px;
+    }
+
+    section#home-review h2 {
+        text-align: center;
+        color: #303030;
+        font-family: "Sen", Sans-serif;
+        font-size: 32px;
+    }
+
+    /* Review Section End */
+
+    /* Gift card Section*/
+    section#home-gift-card {
+        padding: 50px 0px;
+    }
+
+    .home-gift-card-right-part {
+        margin-top: 10px;
+    }
+
+    section#home-success-stories {
+        background-color: #FCFCFC;
+        padding: 60px 0px;
+    }
+
+    .home-gift-card-right-part .home-course-cat-btn {
+        text-align: center;
+    }
+
+    .home-course-cat-btn a {
+        padding: 10px 30px 10px 30px;
+    }
+
+    section#home-success-stories p {
+        font-size: 16px;
+    }
+
+    .home-newsletter-img img {
+        display: none;
+    }
+
+    section#home-newsletter {
+        padding: 40px 0px 40px 0px;
+    }
+
+    .home-newsletter-right-part h2 {
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    section#home-subscription {
+        background-color: #FCFCFC;
+        padding: 0px 0px;
+    }
+
+    section#home-gift-card h2 {
+        font-size: 32px;
+    }
+
+    section#home-gift-card h2 {
+        color: #303030;
+        font-family: "Sen", Sans-serif;
+        font-size: 29px;
+        font-weight: 700;
+        line-height: 40px;
+        text-align: center;
+        margin-bottom: 38px;
+    }
+
+    .home-newsletter-right-part img {
+        display: block !important;
+    }
+
+    /* Gift card Section End */
+}
+
+@media screen and (min-width: 767px) and (max-width: 1399px) {
+    /* Hero Section */
+    section#la-home-page-hero-section {
+        padding: 60px 0px 50px 0px;
+    }
+
+    section#la-home-page-hero-section h1 {
+        color: #303030;
+        font-family: "Sen", Sans-serif;
+        font-size: 50px;
+        font-weight: 700;
+    }
+    
+    section#la-home-page-hero-section img {
+        display: none;
+    }
+
+    .la-trusted-part {
+        margin-top: 40px;
+    }
+
+    section#la-partner-section h2 {
+        font-size: 20px;
+    }
+
+    section#la-partner-section {
+        padding: 0 40px;
+    }
+    /* Hero Section End */
+
+    
+} 

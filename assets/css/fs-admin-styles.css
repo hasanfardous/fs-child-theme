@@ -1,0 +1,29 @@
+/**
+* ============================================================================================================
+* Admin Abandoned Cart Table styles
+* ============================================================================================================
+*/
+
+table.la-abandoned-cart-table {
+    border-collapse: collapse;
+    border: 1px solid;
+}
+
+table.la-abandoned-cart-table tr:nth-child(odd) {
+    background: lightgrey;
+}
+
+table.la-abandoned-cart-table tr:first-child {
+    background: none;
+    text-align: left;
+}
+
+table.la-abandoned-cart-table {
+    width: 100%;
+    /* font-size: 14px; */
+}
+
+table.la-abandoned-cart-table tr th,
+table.la-abandoned-cart-table tr td {
+    padding: 5px 10px;
+}

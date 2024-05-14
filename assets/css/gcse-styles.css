@@ -1,0 +1,465 @@
+body.single-gcse #top-banner-buttons a {
+    border-radius: 50px;
+}
+
+body.single-gcse #la-single-main {
+    /* padding-top: 0; */
+}
+
+body.single-gcse #main-left {
+    width: 710px;
+}
+
+body.single-gcse #main-right {
+    width: calc(100% - 710px);
+}
+
+.la-gcse-top-post-content {
+    margin: 40px auto;
+}
+
+.la-gcse-top-left-content {
+    width: calc(100% - 320px);
+}
+
+.la-gcse-top-left-content h2 {
+    font-size: 32px !important;
+    font-weight: 800;
+    color: #C52855 !important;
+    text-align: left;
+    position: relative;
+    padding: 14px 0 10px 64px;
+    width: 290px;
+    margin: 0 auto;
+}
+
+.la-gcse-top-left-content h2::before,
+.la-gcse-bottom-single::before {
+    content: '';
+    background: url(/wp-content/uploads/2019/11/gcse-fs-course-details-icons.png) no-repeat 0px 4px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 44px;
+    height: 86px;
+}
+
+.la-gcse-top-left-content h2::before {
+    background-position: 0 -3px;
+}
+
+.la-gcse-facilities p {
+    margin-bottom: 0 !important;
+    color: #000 !important;
+    font-size: 17px;
+}
+
+.la-gcse-facilities p b {
+    display: block;
+    font-weight: 800;
+}
+
+.la-gcse-top-post-content a.gcse-enquery-btn {
+    background: #C52855;
+    color: #fff;
+    display: inline-block;
+    padding: 18px;
+    width: 270px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 25px;
+    border-radius: 10px;
+}
+
+/* GCSE bottom content styles */
+.la-gcse-bottom-post-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 100px;
+    grid-row-gap: 25px;
+    margin-bottom: 50px;
+}
+
+.la-gcse-bottom-single {
+    position: relative;
+    padding-left: 60px;
+}
+
+.cpd-course-all-icons-content .la-gcse-bottom-single {
+    position: initial;
+    padding-left: 0;
+}
+
+.cpd-course-all-icons-content .la-gcse-bottom-single::before {
+    content: unset;
+}
+
+.cpd-course-all-icons-content .la-cpd-single-icon-holder {
+    margin-right: 14px;
+    margin-top: 8px;
+}
+
+.la-gcse-bottom-single::before {
+    background-position: -59px 0px;
+    top: 10px;
+    height: 40px;
+}
+
+.la-gcse-bottom-single p:first-child {
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.la-gcse-bottom-single p {
+    margin-bottom: 0 !important;
+}
+
+.la-gcse-bottom-single:nth-child(1)::before {
+    width: 50px;
+    top: 4px;
+    background-position: -52px -97px;
+    height: 45px;
+}
+
+/* Done */
+.la-gcse-bottom-single:nth-child(2)::before {
+    background-position: -95px -56px;
+    width: 46px;
+    top: 8px;
+}
+
+/* Done */
+.la-gcse-bottom-single:nth-child(3)::before {
+    width: 46px;
+    top: 4px;
+    background-position: -189px -51px;
+    height: 44px;
+}
+
+.la-gcse-bottom-single:nth-child(4)::before {
+    width: 40px;
+    background-position: -142px -58px;
+    height: 38px;
+    top: 8px;
+    left: 6px;
+}
+
+/* Done */
+.la-gcse-bottom-single:nth-child(5)::before {
+    height: 40px;
+    background-position: -1px -102px;
+    top: 8px;
+}
+
+.la-gcse-bottom-single:nth-child(6)::before {
+    background-position: -340px -51px;
+    top: 5px;
+    width: 42px;
+    height: 48px;
+    left: 8px;
+}
+
+/* Shortcodee styles */
+h3.gcse-accordion-header {
+    margin: 0px auto !important;
+}
+
+.gcse-accordion-header .accordion-button {
+    position: relative;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 56px;
+    padding-left: 18px;
+}
+
+.gcse-accordion-header .accordion-button::after {
+    content: "\f078";
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #eccddf;
+    padding: 0px 20px;
+}
+
+.gcse-accordion-header .accordion-button:focus,
+.gcse-accordion-header .accordion-button:hover {
+    background-color: transparent;
+    color: inherit;
+}
+
+.gcse-accordion-header .accordion-button:hover,
+.gcse-accordion-header .accordion-button[aria-expanded="true"] {
+    background: #fef0f8 !important;
+}
+
+.gcse-accordion-body p {
+    margin-bottom: 26px !important;
+}
+
+.gcse-course-accordion-content .accordion-collapse {
+    padding-left: 20px;
+}
+
+.gcse-course-accordion-content .accordion-collapse h4 {
+    font-size: 17px !important;
+    margin-bottom: 18px;
+}
+
+.gcse-course-accordion-content .accordion-collapse ul {
+    margin-bottom: 18px !important;
+}
+
+/* Right Sidebar Styles */
+.gcse-right-price-selection-wrap {
+    background: #282830;
+    border: 1px solid #DCDCDC;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.gcse-right-price-selection {
+    width: 100%;
+}
+
+.gcse-right-price-selection-single {
+    background: #fff;
+    border-radius: 14px;
+    padding: 14px;
+    margin: 6px 0;
+    border: 1px solid #af1f47;
+}
+
+.gcse-right-price-selection-single.monthly_pack {
+    display: none;
+}
+
+.gcse-right-price-selection-holder h3 {
+    margin: 26px auto 4px;
+    color: #fff !important;
+    font-size: 22px !important;
+}
+
+.gcse-study-options .gcse-right-price-selection-single,
+.gcse-payment-options .gcse-right-price-selection-single {
+    width: 49%;
+}
+
+.gcse-right-price-selection-wrap h2 {
+    margin-bottom: 14px !important;
+    color: #fff;
+}
+
+.gcse-right-price-selection-wrap p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.gcse-right-price-selection-single.checked {
+    border: 2px solid #af1f47;
+}
+
+p.gcse-course-ajax-confirmation-message {
+    color: #ffb5c9;
+    font-size: inherit;
+    font-weight: bold;
+    margin: 0;
+}
+
+.gcse-right-price-selection-single .checkbox-container {
+    padding-left: 32px;
+}
+
+.gcse-right-price-selection-single .checkbox-container b {
+    color: #000;
+    font-weight: 800;
+    display: block;
+}
+
+.gcse-right-price-selection-single .checkbox-container .checkmark {
+    top: 4px;
+    height: 22px;
+    width: 22px;
+}
+
+.gcse-right-price-selection-single .checkbox-container .checkmark:after {
+    left: 6px;
+    top: 2px;
+    width: 8px;
+    height: 12px;
+}
+
+.gcse-include-fees-checkbox label {
+    background: #fff;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 20px auto;
+    cursor: pointer;
+    display: block;
+}
+
+.gcse-include-fees-checkbox label[for=gcse-include-fees-monthly] {
+    display: none;
+}
+
+p.gcse-course-fees-value {
+    font-size: 30px;
+    font-weight: 800;
+    color: #ff467a;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.gcse-total-course-fees a#enroll-btn {
+    box-shadow: none;
+    margin-bottom: 10px;
+}
+
+/* Inquery popup styles */
+#gcse-inquery-modal {
+    background-color: rgba(0, 0, 0, 0.4);
+    text-align: left;
+}
+
+#gcse-inquery-modal .modal-content {
+    background-color: #f8f8f8;
+    margin: 120px auto 0;
+    padding: 26px 20px 0px 20px;
+    border: 1px solid #888;
+    width: 420px;
+    max-width: 80%;
+}
+
+#gcse-inquery-modal .close {
+    color: #fff;
+    position: absolute;
+    top: -8px;
+    right: -9px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #b2234e;
+    border-radius: 50%;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Poppins';
+    text-align: center;
+    cursor: pointer;
+}
+
+.la-gcse-top-post-content a.la-education-training-popup-btn {
+    font-size: 19px;
+}
+
+#gcse-inquery-modal .la-education-training-calendly-popup-wrap {
+    text-align: center;
+}
+
+#gcse-inquery-modal .la-education-training-calendly-popup-wrap a {
+    color: #C52855;
+    font-size: 32px;
+    font-weight: 900;
+    padding: 60px 40px 72px;
+    display: block;
+    font-family: 'Sen', sans-serif;
+    line-height: 42px;
+}
+
+#gcse-inquery-modal textarea {
+    height: 100px;
+}
+
+#gcse-inquery-modal input#gform_submit_button_76 {
+    background: #b2234e;
+    border-radius: 6px;
+}
+
+#gcse-inquery-modal h2.gform_submission_error.hide_summary {
+    font-size: 16px !important;
+}
+
+/* Responsive styles */
+@media (max-width: 1024px) {
+    body.single-gcse #main-left {
+        width: 625px;
+    }
+
+    body.single-gcse #main-right {
+        width: calc(100% - 640px);
+        float: right;
+    }
+}
+
+@media (max-width: 992px) {
+    section#main-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    body.single-gcse #main-left {
+        width: 100%;
+        order: 2;
+    }
+
+    body.single-gcse #main-right {
+        width: 100%;
+        order: 1;
+    }
+
+    #main-right .gcse-right-price-selection-wrap {
+        display: none;
+    }
+
+    .gcse-right-price-selection-wrap h2 {
+        color: #fff !important;
+    }
+
+    p.gcse-course-fees-value {
+        color: #ff467a !important;
+    }
+
+    .gcse-accordion-header .accordion-button {
+        background: transparent;
+        color: #1c1d1f;
+        line-height: 32px;
+    }
+
+    .gcse-accordion-header .accordion-button::after {
+        background: transparent;
+    }
+}
+
+@media (max-width: 767px) {
+    .la-gcse-top-post-content {
+        margin: 0 auto 40px;
+        flex-direction: column;
+    }
+
+    .la-gcse-top-left-content {
+        width: 100%;
+    }
+
+    .la-gcse-top-post-content a.gcse-enquery-btn {
+        margin-top: 30px;
+    }
+
+    .la-gcse-bottom-post-content {
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 20px;
+    }
+
+    .gcse-accordion-header .accordion-button {
+        line-height: 26px;
+        padding: 10px 60px 10px 10px;
+    }
+
+    .gcse-accordion-header .accordion-button::after {
+        height: 100%;
+        line-height: 46px;
+    }
+}

@@ -1,0 +1,36 @@
+[27-Mar-2024 11:07:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function la_get_course_cat_id_by_course_id() in /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-content/themes/fs-child-theme/woocommerce/content-single-product.php:79
+Stack trace:
+#0 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-includes/template.php(792): require()
+#1 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#2 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part()
+#3 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-includes/template-loader.php(106): include('/home/622276.cl...')
+#4 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-blog-header.php(19): require_once('/home/622276.cl...')
+#5 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/index.php(17): require('/home/622276.cl...')
+#6 {main}
+  thrown in /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-content/themes/fs-child-theme/woocommerce/content-single-product.php on line 79
+[27-Mar-2024 11:07:45 UTC] PHP Warning:  touch(): Utime failed: Operation not permitted in /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 529
+[27-Mar-2024 11:07:45 UTC] PHP Warning:  chmod(): Operation not permitted in /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[27-Mar-2024 11:08:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function la_get_course_cat_id_by_course_id() in /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-content/themes/fs-child-theme/woocommerce/content-single-product.php:79
+Stack trace:
+#0 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-includes/template.php(792): require()
+#1 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#2 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part()
+#3 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-includes/template-loader.php(106): include('/home/622276.cl...')
+#4 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-blog-header.php(19): require_once('/home/622276.cl...')
+#5 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/index.php(17): require('/home/622276.cl...')
+#6 {main}
+  thrown in /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-content/themes/fs-child-theme/woocommerce/content-single-product.php on line 79
+[27-Mar-2024 11:08:08 UTC] PHP Warning:  touch(): Utime failed: Operation not permitted in /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 529
+[27-Mar-2024 11:08:08 UTC] PHP Warning:  chmod(): Operation not permitted in /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 173
+[27-Mar-2024 11:08:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function la_get_course_cat_id_by_course_id() in /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-content/themes/fs-child-theme/woocommerce/content-single-product.php:79
+Stack trace:
+#0 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-includes/template.php(792): require()
+#1 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-content/plugins/woocommerce/includes/wc-core-functions.php(284): load_template()
+#2 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-content/plugins/woocommerce/templates/single-product.php(37): wc_get_template_part()
+#3 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-includes/template-loader.php(106): include('/home/622276.cl...')
+#4 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-blog-header.php(19): require_once('/home/622276.cl...')
+#5 /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/index.php(17): require('/home/622276.cl...')
+#6 {main}
+  thrown in /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-content/themes/fs-child-theme/woocommerce/content-single-product.php on line 79
+[27-Mar-2024 11:08:19 UTC] PHP Warning:  touch(): Utime failed: Operation not permitted in /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 529
+[27-Mar-2024 11:08:19 UTC] PHP Warning:  chmod(): Operation not permitted in /home/622276.cloudwaysapps.com/gmgybyeuwf/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 173

@@ -1,0 +1,1144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#msg-therapy {
+    background: #F5F5F5;
+    font-size: 14px;
+}
+
+#msg-therapy h1,
+#msg-therapy h2,
+#msg-therapy h3,
+#msg-therapy h4,
+#msg-therapy h5,
+#msg-therapy h6 {
+    font-family: 'Poppins' !important;
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 2px solid #af1f47;
+    width: 170px;
+    opacity: 1;
+    background: #af1f47;
+}
+
+#msg-therapy h1 {
+    font-size: 56px;
+    margin: 0;
+}
+
+#msg-therapy h2 {
+    font-size: 56px;
+    margin: 0;
+}
+
+#msg-therapy h3 {
+    font-size: 28px;
+    margin: 0;
+}
+
+#msg-therapy h4 {
+    font-size: 21px;
+    margin: 0;
+
+}
+
+#msg-therapy h5 {
+    font-size: 21px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#msg-therapy h6 {
+    font-size: 18px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    font-weight: bold;
+}
+
+
+.msg-therapy-container {
+    width: 1240px;
+    display: flex;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+.single-msg-therapy-top-3 {
+    display: inline-block;
+    font-size: 14px;
+    width: 33%;
+    padding: 19px 50px 19px 0px;
+}
+
+.msg-float-row {
+    clear: both;
+    float: initial !important;
+    overflow: hidden;
+}
+
+.msg-float-left {
+    width: 50px !important;
+    float: left;
+}
+
+.msg-float-right {
+    width: calc(100% - 50px) !important;
+    float: right;
+}
+
+section#msg-top-section {
+    background-color: rgb(255 238 238);
+    border-bottom: 1px solid #dadada;
+}
+
+section#msg-hero-section {
+    background-image: url(https://lead-academy.org/wp-content/uploads/2023/06/msg-thrpy-1.webp);
+    background-size: cover;
+    padding: 100px 0;
+}
+
+section#nail-hero-section {
+    background-image: url(https://lead-academy.org/wp-content/uploads/2023/06/V3-1.webp);
+    background-size: cover;
+    padding: 100px 0;
+}
+
+.course-btn {
+    background-color: #b4284f;
+    padding: 6px 0px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.course-btn a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+section#msg-hero-section h1 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Sen", Sans-serif;
+    text-transform: uppercase;
+}
+
+section#nail-hero-section h2 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: "Sen", Sans-serif;
+    text-transform: uppercase;
+}
+
+section#msg-hero-section p {
+    margin-top: 30px;
+    line-height: 31px;
+    color: #fff;
+    font-family: "Sen", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+section#nail-hero-section p {
+    margin-top: 30px;
+    line-height: 31px;
+    color: #fff;
+    font-family: "Sen", Sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.single-msg-therapy-top-3 .msg-top-info-title {
+    font-weight: bold;
+    padding: 0px;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    margin: 0px 0px;
+}
+
+img.trustpilot {
+    width: 270px;
+    margin: 20px 0px 20px 0px;
+}
+
+section#msg-solution {
+    background-color: #c5325b0a;
+    padding: 100px 0px;
+}
+
+section#msg-solution h2 {
+    text-align: center;
+    color: #000000;
+    font-family: "Sen", Sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+section#msg-solution p {
+    text-align: center;
+    color: #303030;
+    font-family: "Sen", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+section#msg-solution h3 {
+    font-size: 26px;
+    margin-top: 28px;
+    color: #000000;
+}
+
+#msg-solution li:before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    color: #a41b47;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+#msg-solution li::marker {
+    content: "";
+}
+
+section#msg-solution ul {
+    margin-left: 20px;
+    padding-left: 0px;
+}
+
+section#msg-solution ul li {
+    margin: 20px 0px;
+    line-height: 26px;
+    font-family: "Sen", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-indent: -16px;
+}
+
+a.msg-btn {
+    display: block;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    border-radius: 40px;
+    margin-top: 15px;
+    font-family: "Sen", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    background-image: linear-gradient(103deg, #a32145 0%, #c52c52 100%);
+    padding: 15px 65px 15px 65px;
+}
+
+a.msg-btn:hover {
+    color: #780021;
+    background-color: transparent;
+    background-image: linear-gradient(180deg, #fff 0%, #fff 100%);
+}
+
+.msg-cs-train ul {
+    margin-left: 0;
+}
+
+.single-msg-therapy-top-3 p {
+    margin-bottom: 0px;
+}
+
+.single-msg-therapy-top-3 .float-left img {
+    height: 36px;
+}
+
+.single-msg-therapy-top-3 .msg-top-info-title {
+    font-size: 18px;
+}
+
+#msg-course-section h2 {
+    text-align: center;
+    color: #000000;
+    padding: 80px 0px 50px 0px;
+}
+
+.msg-single-course {
+    box-shadow: -3px 0px 10px 1px rgb(143 143 143 / 24%);
+    padding: 15px;
+    border-radius: 16px;
+    margin: 0px 10px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.msg-single-course h3 {
+    font-size: 20px;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    margin-bottom: 0;
+}
+
+.course-img {
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid #d3d3d3;
+}
+
+.msg-single-course .pkg {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Sen", Sans-serif;
+    color: #B91948;
+    margin: 15px 0px 10px 15px;
+}
+
+.msg-single-course li::marker {
+    content: url('https://lead-academy.org/wp-content/uploads/2022/10/checked.svg');
+}
+
+.msg-single-course ul li {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+    text-indent: 10px;
+}
+
+.msg-single-course ul {
+    margin-left: 0px;
+}
+
+.ms-d {
+    margin-top: 45px !important;
+}
+
+span.la-h-price {
+    color: #b4284f;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+span.la-h-del {
+    font-size: 12px;
+    position: relative;
+    bottom: 6px;
+}
+
+.single-msg-therapy-top-3 img {
+    width: 35px;
+}
+
+.msg-train-b {
+    margin: 80px 0px;
+    border: 2px solid #cbcbcb;
+    border-radius: 25px;
+    padding: 45px 25px;
+}
+
+.msg-train-b li::marker {
+    content: url('https://lead-academy.org/wp-content/uploads/2022/09/Group.svg');
+}
+
+.msg-train-b ul li {
+    line-height: 24px;
+    margin-top: 20px;
+    font-size: 18px;
+    text-indent: 10px;
+    font-weight: 500;
+}
+
+.msg-train-b h2 {
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.msg-train-b img {
+    width: 100%;
+}
+
+.cs-accreditation {
+    text-align: center;
+    height: 100% !important;
+    vertical-align: middle !important;
+    display: grid;
+}
+
+.msg-cs-train {
+    border-right: 3px solid #d0d0d0;
+}
+
+.course-btn:hover {
+    background-color: #cc476d;
+    padding: 6px 0px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+    margin-top: 15px;
+    border: 1px solid #b4284f;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+
+}
+
+.msg-single-course:hover {
+    box-shadow: -3px 0px 9px 1px rgb(0 0 0 / 5%);
+    padding: 15px;
+    border: 3px solid #af1f47;
+    border-radius: 16px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+
+.course-btn a:hover {
+    color: #fff;
+}
+
+.msg-single-course {
+    margin: 12px 10px;
+}
+
+section#msg-review h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    color: #000000;
+}
+
+section#msg-review {
+    background-color: #c5325b0a;
+    margin: 0px;
+    padding: 100px 0px;
+}
+
+.brdr-left {
+    border-right: 12px solid #ae1942;
+}
+
+section#msg-faq h2 {
+    text-align: center;
+}
+
+section#msg-faq {
+    padding: 80px 0px;
+}
+
+section#msg-faq .accordion-button:focus {
+    z-index: 0;
+    border-color: aliceblue;
+    outline: 0;
+    box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #b4284f;
+    background-color: #ffebf1;
+    box-shadow: inset 0 calc(var(--bs-accordion-border-width) * -1) 0 #b4284f;
+    font-size: 18px;
+}
+
+iframe.msg-video {
+    border: 10px solid #ffe4e4;
+    border-radius: 42px;
+}
+
+button.accordion-button.collapsed {
+    font-size: 18px;
+}
+
+.accordion-body {
+    font-size: 16px;
+}
+
+.msg-review-part .cat-box-head img {
+    width: 100px !important;
+}
+
+.owl-carousel.owl-2.owl-loaded.owl-drag {
+    margin-bottom: 40px;
+}
+
+.msg-review-part .cat-feedback-ds p.la-review-text {
+    color: #191919;
+    font-size: 14px;
+    height: 106px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+}
+
+#msg-course-section .fsc-custom-card {
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    margin: 0 20px 40px;
+    position: relative;
+    max-width: 100%;
+    min-height: 640px;
+}
+
+.msg-v-aling {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.la-single-reviewer-name {
+    color: #00000099;
+    font-weight: 700;
+    margin: 10px auto 0;
+    font-size: 13px;
+    font-family: Arial;
+}
+
+p.la-single-reviewer-name span {
+    color: #00000066;
+    font-weight: 600;
+    font-size: 10px;
+    font-family: Arial;
+}
+
+#la-single-faq .accordion-body p {
+    border-left: 2px solid #af1f47;
+    padding-left: 30px;
+    margin-left: 8px;
+}
+
+.more-course-btn a {
+    display: block;
+    width: 300px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 40px;
+    font-family: "Sen", Sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: transparent;
+    background-image: linear-gradient(103deg, #a32145 0%, #c52c52 100%);
+    padding: 15px 65px 15px 65px;
+    margin: 50px auto;
+}
+
+/* Complete nail technician course styles */
+
+#cntc-hero {
+    margin: 27px auto;
+}
+
+#cntc-hero .hero-left,
+#cntc-hero .hero-right {
+    width: 50%;
+}
+
+#cntc-hero .hero-right {
+    padding-left: 20px;
+    text-align: right;
+}
+
+
+#cntc-hero .hero-small-imgs img {
+    padding-top: 20px;
+    padding-left: 16px;
+    width: 49%;
+}
+
+#cntc-hero .hero-left h1 {
+    margin: 80px auto 36px;
+    font-size: 48px;
+    color: #202020;
+}
+
+#cntc-hero .hero-left p:nth-child(3) span,
+#cntc-hero .hero-left p:nth-child(4) .course-price {
+    color: #C4234F;
+    font-weight: bold;
+}
+
+#cntc-hero .hero-left p {
+    color: #000000;
+    max-width: 360px;
+    line-height: 32px;
+    margin-bottom: 26px;
+}
+
+#cntc-hero .hero-left ul {
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+
+#cntc-hero .hero-left ul li {
+    min-height: 28px;
+    background-image: url(/wp-content/uploads/2023/07/Hero-Icons.png);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    background-position: 0 5px;
+    margin-bottom: 24px;
+}
+
+#cntc-hero .hero-left ul li:nth-child(2) {
+    background-position: 0 -39px;
+}
+
+#cntc-hero .hero-left ul li:nth-child(3),
+#cntc-hero .hero-left ul li:nth-child(6) {
+    background-position: 0 -85px;
+}
+
+#cntc-hero .hero-left ul li:nth-child(4) {
+    background-position: 0 -126px;
+}
+
+#cntc-hero .hero-left ul li:nth-child(5) {
+    background-position: 0 -170px;
+}
+
+#cntc-hero .buttons-wrap a {
+    display: block;
+    width: 388px;
+    background: #D9D9D9;
+    margin: 0 auto 10px;
+    text-align: center;
+    color: #000;
+    font-size: 16px;
+    padding: 10px 0;
+    border-radius: 50px;
+}
+
+#cntc-hero .buttons-wrap a.btn-add-to-cart {
+    background: #E44A7B;
+    color: #fff;
+}
+
+.service-details-wrap .left-service-item-single,
+.service-details-wrap .right-service-item-single:last-child {
+    /* width: 50%; */
+    border: 1px solid #c5c5c5;
+    border-radius: 36px;
+    padding: 28px 36px;
+}
+
+#cntc-service-details h2 {
+    max-width: 608px;
+    margin: 80px auto;
+    font-size: 48px;
+    /* font-weight: 500; */
+    color: #000;
+}
+
+.service-details-wrap .left-service-item {
+    width: 80%;
+}
+
+.service-details-wrap .left-service-item-single:first-child {
+    min-height: 580px;
+}
+
+.service-details-wrap .left-service-item-single:last-child,
+.service-details-wrap .right-service-item-single:last-child {
+    margin-top: 30px;
+    min-height: 328px;
+}
+
+.service-details-wrap .right-service-item {
+    width: 50%;
+    padding-left: 30px;
+    position: relative;
+}
+
+.service-details-wrap .left-service-item-single:last-child ul,
+.service-details-wrap .right-service-item-single:last-child ul {
+    margin: 0px;
+}
+
+.service-details-wrap .left-service-item-single:last-child ul li,
+.service-details-wrap .right-service-item-single:last-child ul li {
+    padding-left: 26px;
+    position: relative;
+    margin: 14px auto;
+}
+
+.service-details-wrap .left-service-item-single:last-child ul li:before,
+.service-details-wrap .right-service-item-single:last-child ul li:before {
+    background: #E64C7E;
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    top: 8px;
+    content: "";
+    height: 8px;
+    width: 8px;
+}
+
+.right-service-item-single img {
+    width: 100%;
+    /* height: auto; */
+}
+
+.service-details-wrap h3 {
+    color: #E44A7B;
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.service-details-wrap p:nth-child(2) {
+    margin-bottom: 24px;
+}
+
+.service-details-wrap p {
+    line-height: 36px;
+}
+
+.service-details-wrap a {
+    display: inherit;
+}
+
+.service-details-wrap a,
+.service-details-wrap a img {
+    text-align: right;
+}
+
+.service-details-wrap .right-service-item-single:first-child {
+    position: relative;
+}
+
+.service-details-wrap .right-service-item-single:first-child::before {
+    content: '';
+    background: url(/wp-content/uploads/2023/07/Play-Button.png) no-repeat center;
+    width: 118px;
+    height: 118px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    cursor: pointer;
+}
+
+/* Daywise course styles */
+#cntc-daywise-course {
+    padding: 90px 0 10px;
+}
+
+#cntc-daywise-course h2.cntc-daywise-course-title {
+    background: #D9D9D9;
+    color: #282828;
+    padding: 15px;
+    font-size: 48px;
+    margin-bottom: 46px;
+}
+
+.cntc-single-card-contents {
+    background: #F0F0F0;
+    padding: 24px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    margin-top: -10px;
+    min-height: 360px;
+}
+
+.cntc-single-card {
+    padding: 0 15px;
+}
+
+.cntc-single-card-contents ul {
+    margin-left: 17px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.cntc-single-card-contents ul li {
+    color: #282828;
+    font-size: 12px;
+    line-height: 32px;
+}
+
+.cntc-single-card-contents h3,
+.cntc-single-card-contents p.time-range {
+    text-align: center;
+}
+
+.cntc-single-card-contents h3 {
+    font-size: 28px;
+    margin: 0;
+}
+
+.cntc-single-card-contents p.time-range {
+    font-size: 18px;
+    margin-bottom: 26px;
+}
+
+#cntc-daywise-course h2.cntc-daywise-course-title.day-2,
+#cntc-daywise-course h2.cntc-daywise-course-title.day-3 {
+    margin-top: 100px;
+}
+
+#cntc-daywise-course a.cntc-two-cards-bottom-btn {
+    background: #E44A7B;
+    display: inline-block;
+    max-width: 302px;
+    margin: 80px auto 0;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 32px;
+    padding: 8px 16px;
+}
+
+@media (max-width: 1024px) {
+    #cntc-hero .hero-left h1 {
+        margin: 18px auto;
+        font-size: 34px;
+    }
+
+    #cntc-hero .hero-left p {
+        max-width: 386px;
+        margin-bottom: 16px;
+    }
+
+    #cntc-hero .hero-left ul li {
+        margin-bottom: 16px;
+    }
+
+    #cntc-service-details h2 {
+        max-width: 510px;
+        margin: 46px auto;
+        font-size: 34px;
+    }
+}
+
+/* Mobile Css */
+@media (max-width: 480px) {
+    .single-msg-therapy-top-3 {
+        display: inline-block;
+        font-size: 14px;
+        width: 100%;
+        padding: 19px 0px 19px 0px;
+        border-bottom: 1px solid #a3a3a3;
+    }
+
+    .single-msg-therapy-top-3 .msg-top-info-title {
+        font-size: 15px;
+    }
+
+    .single-msg-therapy-top-3 p {
+        font-size: 13px;
+    }
+
+    section#msg-hero-section {
+        background-image: url(https://lead-academy.org/wp-content/uploads/2023/06/msg-thrpy-1.webp);
+        background-size: cover;
+        padding: 40px 0;
+    }
+
+    section#nail-hero-section {
+        background-image: url(https://lead-academy.org/wp-content/uploads/2023/06/V3-1.webp);
+        background-size: cover;
+        padding: 40px 0;
+    }
+
+    section#msg-hero-section h1 {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    section#nail-hero-section h2 {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    section#msg-hero-section p {
+        color: #fff;
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 31px;
+    }
+
+    section#nail-hero-section p {
+        color: #fff;
+        font-size: 18px;
+        margin-top: 30px;
+        line-height: 31px;
+    }
+
+    #msg-course-section h2 {
+        text-align: center;
+        padding: 45px 0px 10px 0px;
+        font-size: 22px;
+        line-height: 35px;
+        font-weight: 700;
+    }
+
+    #nail-course-section h2 {
+        text-align: center;
+        padding: 45px 0px 10px 0px;
+        font-size: 22px;
+        line-height: 35px;
+        font-weight: 700;
+    }
+
+    .msg-cs-train {
+        border-right: 0px solid #d0d0d0;
+    }
+
+    .msg-train-b ul li {
+        line-height: 27px;
+        margin-top: 10px;
+        font-size: 16px;
+        text-indent: 10px;
+        font-weight: 500;
+    }
+
+    .msg-train-b li::marker {
+        content: url('https://lead-academy.org/wp-content/uploads/2023/07/Group-1.svg');
+    }
+
+    .msg-train-b h2 {
+        margin-bottom: 25px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    .cs-accreditation {
+        text-align: center;
+        border-top: 2px solid #aeaeae;
+    }
+
+    .cs-accreditation h2 {
+        margin-top: 15px;
+        font-size: 22px;
+    }
+
+    .row.ms-d {
+        margin-top: 0px !important;
+    }
+
+    .msg-single-course {
+        box-shadow: -3px 0px 10px 1px rgb(143 143 143 / 24%);
+        padding: 10px;
+        border-radius: 16px;
+        margin: 12px 0px;
+        transition: all 500ms ease;
+    }
+
+    a.msg-btn {
+        width: 100%;
+    }
+
+    section#msg-solution h2 {
+        text-align: center;
+        color: #000000;
+        font-family: "Sen", Sans-serif;
+        font-size: 23px;
+        font-weight: 700;
+        line-height: 33px;
+    }
+
+    section#msg-solution {
+        background-color: #c5325b0a;
+        padding: 50px 0px;
+    }
+
+    #msg-course-section .fsc-custom-card {
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        margin: 0 0px 40px;
+        position: relative;
+        max-width: 100%;
+        min-height: 665px;
+    }
+
+    section#msg-solution p {
+        text-align: justify;
+        color: #303030;
+        font-family: "Sen", Sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    section#msg-solution h3 {
+        font-size: 18px;
+        margin-top: 28px;
+    }
+
+    .msg-train-b {
+        margin: 35px 0px 50px 0px;
+        border: 2px solid #cbcbcb;
+        border-radius: 25px;
+        padding: 45px 25px;
+    }
+
+    section#msg-faq {
+        padding: 50px 10px;
+    }
+
+    img.trustpilot {
+        width: 300px;
+        margin: 20px 0px 20px 0px;
+    }
+
+    .more-course-btn a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 40px;
+        font-family: "Sen", Sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: transparent;
+        background-image: linear-gradient(103deg, #a32145 0%, #c52c52 100%);
+        padding: 15px 65px 15px 65px;
+        margin: 20px auto 60px auto;
+    }
+
+    /* Complete nail technician styles */
+
+    #cntc-hero .d-flex.justify-content-between,
+    .service-details-wrap.d-flex,
+    .cntc-two-cards.d-flex.justify-content-center {
+        display: block !important;
+    }
+
+    #cntc-hero .hero-left,
+    #cntc-hero .hero-right {
+        width: 100%;
+        padding: 0;
+    }
+
+    #cntc-hero .hero-left h1 {
+        margin: 18px auto;
+        font-size: 30px;
+    }
+
+    #cntc-hero .buttons-wrap a {
+        width: 100%;
+    }
+
+    #cntc-service-details h2 {
+        font-size: 26px;
+    }
+
+    .service-details-wrap .left-service-item-single,
+    .service-details-wrap .right-service-item-single,
+    .service-details-wrap .left-service-item,
+    .service-details-wrap .right-service-item,
+    .service-details-wrap .right-service-item-single:last-child {
+        width: 100%;
+        padding: 0;
+    }
+
+    .service-details-wrap .left-service-item-single,
+    .service-details-wrap .right-service-item-single:last-child {
+        padding: 20px;
+    }
+
+    .service-details-wrap .right-service-item {
+        margin-top: 30px;
+    }
+
+    #cntc-daywise-course h2.cntc-daywise-course-title {
+        font-size: 30px;
+    }
+
+    #cntc-daywise-course h2.cntc-daywise-course-title.day-2,
+    #cntc-daywise-course h2.cntc-daywise-course-title.day-3 {
+        margin-top: 50px;
+    }
+
+    .cntc-single-card {
+        margin-bottom: 30px;
+    }
+
+    #cntc-daywise-course a.cntc-two-cards-bottom-btn {
+        margin: 30px auto 80px;
+        font-size: 26px;
+    }
+}
+
+
+/* TAB CSS */
+@media screen and (min-width: 580px) and (max-width: 768px) {
+    #msg-course-section .fsc-custom-card {
+        min-height: 800px !important;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 990px) {
+    .single-msg-therapy-top-3 {
+        display: inline-block;
+        font-size: 14px;
+        width: 100%;
+        padding: 19px 0px 20px 0px;
+    }
+
+    section#msg-hero-section {
+        background-image: url(https://lead-academy.org/wp-content/uploads/2023/06/msg-thrpy-1.webp);
+        background-size: cover;
+        padding: 60px 0;
+    }
+
+    section#nail-hero-section {
+        background-image: url(https://lead-academy.org/wp-content/uploads/2023/06/V3-1.webp);
+        background-size: cover;
+        padding: 60px 0;
+    }
+
+    .msg-cs-train {
+        border-right: 0px solid #d0d0d0;
+    }
+
+    .cs-accreditation {
+        text-align: center;
+        border-top: 2px solid #aeaeae;
+    }
+
+    .cs-accreditation h2 {
+        margin-top: 15px;
+        font-size: 22px;
+    }
+
+    #msg-course-section .fsc-custom-card {
+        box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+        margin: 0 20px 40px;
+        position: relative;
+        max-width: 100%;
+        min-height: 680px;
+    }
+
+    .more-course-btn a {
+        display: block;
+        width: 40%;
+        text-align: center;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 40px;
+        font-family: "Sen", Sans-serif;
+        font-size: 16px;
+        font-weight: 600;
+        background-color: transparent;
+        background-image: linear-gradient(103deg, #a32145 0%, #c52c52 100%);
+        padding: 15px 65px 15px 65px;
+        margin: 20px auto 60px auto;
+    }
+}
