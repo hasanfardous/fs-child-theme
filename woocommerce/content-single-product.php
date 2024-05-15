@@ -30,7 +30,40 @@ if ( post_password_required() ) {
 	echo get_the_password_form(); // WPCS: XSS ok.
 	return;
 }
+
+// Meta boxes
+$current_product_id 		= get_the_ID();						
+$watch_video_btn_title      = get_post_meta( $current_product_id, 'watch_video_btn', true);
+$watch_video_url 			= get_post_meta( $current_product_id, 'watch_video_url', true);
+$watch_success_video_url	= get_post_meta( $current_product_id, 'watch_success_video_url', true);
+$course_info_icon_1 		= get_post_meta( $current_product_id, 'course_info_icon_1', true);
+$course_info_text_1 		= get_post_meta( $current_product_id, 'course_info_text_1', true);
+$course_info_icon_2 		= get_post_meta( $current_product_id, 'course_info_icon_2', true);
+$course_info_text_2 		= get_post_meta( $current_product_id, 'course_info_text_2', true);
+$course_info_icon_3 		= get_post_meta( $current_product_id, 'course_info_icon_3', true);
+$course_info_text_3 		= get_post_meta( $current_product_id, 'course_info_text_3', true);
+$course_info_icon_4 		= get_post_meta( $current_product_id, 'course_info_icon_4', true);
+$course_info_text_4 		= get_post_meta( $current_product_id, 'course_info_text_4', true);
+$course_info_icon_5 		= get_post_meta( $current_product_id, 'course_info_icon_5', true);
+$course_info_text_5 		= get_post_meta( $current_product_id, 'course_info_text_5', true);
+$course_info_icon_6 		= get_post_meta( $current_product_id, 'course_info_icon_6', true);
+$course_info_text_6 		= get_post_meta( $current_product_id, 'course_info_text_6', true);
+$wc_product_faqs 			= ! empty( get_post_meta( $current_product_id, 'product_faqs', true) ) ? get_post_meta( $current_product_id, 'product_faqs', true) : [];
+$product_curriculums		= ! empty( get_post_meta( $current_product_id, 'product_curriculums', true) ) ? get_post_meta( $current_product_id, 'product_curriculums', true) : [];
+$wc_product_accreditation	= get_post_meta( $current_product_id, 'wc_product_accreditation', true);
+$wc_product_certification	= get_post_meta( $current_product_id, 'wc_product_certification', true);
+$exm_board_group			= get_post_meta( $current_product_id, 'exm_board_group', true);
+$board_sec_title			= get_post_meta( $current_product_id, 'board_sec_title', true);
+$show_board_sec_btns		= get_post_meta( $current_product_id, 'board_sec_btns', true);
+$course_regular_price 		= get_post_meta( $current_product_id, '_regular_price', true);
+$course_sale_price 			= get_post_meta( $current_product_id, '_sale_price', true);
+$course_reviews 			= ! empty( get_post_meta( $current_product_id, 'la_course_reviews', true) ) ? get_post_meta( $current_product_id, 'la_course_reviews', true) : [];            
+$la_phleb_course_regular_price = get_post_meta( $current_product_id, 'la_phleb_course_regular_price', true);
+$la_phleb_course_sell_price = get_post_meta( $current_product_id, 'la_phleb_course_sell_price', true);
+$la_phleb_course_meta_group = get_post_meta( $current_product_id, 'la_phleb_course_meta_group', true);
+$fs_timeslot_group = get_post_meta( $current_product_id, 'fs_timeslot_group', true);
 ?>
+
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
 <script>
 document.addEventListener('DOMContentLoaded', function() {
@@ -79,40 +112,13 @@ document.addEventListener('DOMContentLoaded', function() {
 	eventClick: function( info ) {
 		info.jsEvent.preventDefault();
 		console.log(info.event.title);
-		// info.el.closest('.fc-daygrid-day-frame').style.backgroundColor = '#FF1949';
-		// info.el.closest('.fc-daygrid-day-frame').style.color = '#ffffff';
-		/*
-		let laTimeSlots = info.event.extendedProps.timeSlots;
-		console.log(laTimeSlots);
-		let targetEl = document.getElementById('fs-single-booking-btns');
-		targetEl.innerHTML = '';
-		let headingEl = document.querySelector('.fs-single-booking-btns-wrap h4');
-		let dateOptions = {
-			weekday: 'long', 
-			year: 'numeric',
-			month: 'long', 
-			day: 'numeric'
-
-		};
-		let fsSelectedDateTime = info.event.start.toLocaleDateString( 'en-US', dateOptions ).replace(/,(\s+)/, '$1');
-		headingEl.innerHTML = 'Select a time on ' + fsSelectedDateTime;
-		// headingEl.innerHTML = 'Select a time on ' + info.event.start.format('F');
-		console.log( info.event.title );
-		laTimeSlots.forEach(function( item, index, arr ){
-			// console.log( item );
-			targetEl.innerHTML += `<span 
-			class="fs-single-booking-btn-date-time" 
-			data-event-info="${item}"
-			data-event-date-time="${fsSelectedDateTime}"
-			>${item}</span>`;
-		});
-		*/
 	},
 	dayClick: function(arg) {
-		console.log( arg );
-		// console.log( arg.isLastDay );
-		if ( !arg.isLastDay ) {
-			console.log( arg.dateStr );
+		console.log( arg.dateStr );
+		var clickedDateEl = document.querySelector('td[data-date="' + arg.dateStr +'"]');
+
+		if ( clickedDateEl ) {
+			clickedDateEl.classList.add('highlight');
 		}
 	},
 	dateClick: function( info ) {
@@ -150,43 +156,23 @@ document.addEventListener('DOMContentLoaded', function() {
 			calendar.unselect();
 		}
 		console.log('Selected Date ', isDateSelected);
+
+		// Highlight the selected item
+		var previouslyClickedEl = document.querySelector('td.highlight');
+		if ( previouslyClickedEl ) {
+			previouslyClickedEl.classList.remove( 'highlight' );
+		}
+		var clickedDateEl = document.querySelector('td[data-date="' + info.dateStr +'"]');
+
+		if ( clickedDateEl ) {
+			clickedDateEl.classList.add('highlight');
+		}
 	}
   });
   calendar.render();
 });
 </script>
 <?php
-
-$current_product_id 		= get_the_ID();						
-$watch_video_btn_title      = get_post_meta( $current_product_id, 'watch_video_btn', true);
-$watch_video_url 			= get_post_meta( $current_product_id, 'watch_video_url', true);
-$watch_success_video_url	= get_post_meta( $current_product_id, 'watch_success_video_url', true);
-$course_info_icon_1 		= get_post_meta( $current_product_id, 'course_info_icon_1', true);
-$course_info_text_1 		= get_post_meta( $current_product_id, 'course_info_text_1', true);
-$course_info_icon_2 		= get_post_meta( $current_product_id, 'course_info_icon_2', true);
-$course_info_text_2 		= get_post_meta( $current_product_id, 'course_info_text_2', true);
-$course_info_icon_3 		= get_post_meta( $current_product_id, 'course_info_icon_3', true);
-$course_info_text_3 		= get_post_meta( $current_product_id, 'course_info_text_3', true);
-$course_info_icon_4 		= get_post_meta( $current_product_id, 'course_info_icon_4', true);
-$course_info_text_4 		= get_post_meta( $current_product_id, 'course_info_text_4', true);
-$course_info_icon_5 		= get_post_meta( $current_product_id, 'course_info_icon_5', true);
-$course_info_text_5 		= get_post_meta( $current_product_id, 'course_info_text_5', true);
-$course_info_icon_6 		= get_post_meta( $current_product_id, 'course_info_icon_6', true);
-$course_info_text_6 		= get_post_meta( $current_product_id, 'course_info_text_6', true);
-$wc_product_faqs 			= ! empty( get_post_meta( $current_product_id, 'product_faqs', true) ) ? get_post_meta( $current_product_id, 'product_faqs', true) : [];
-$product_curriculums		= ! empty( get_post_meta( $current_product_id, 'product_curriculums', true) ) ? get_post_meta( $current_product_id, 'product_curriculums', true) : [];
-$wc_product_accreditation	= get_post_meta( $current_product_id, 'wc_product_accreditation', true);
-$wc_product_certification	= get_post_meta( $current_product_id, 'wc_product_certification', true);
-$exm_board_group			= get_post_meta( $current_product_id, 'exm_board_group', true);
-$board_sec_title			= get_post_meta( $current_product_id, 'board_sec_title', true);
-$show_board_sec_btns		= get_post_meta( $current_product_id, 'board_sec_btns', true);
-$course_regular_price 		= get_post_meta( $current_product_id, '_regular_price', true);
-$course_sale_price 			= get_post_meta( $current_product_id, '_sale_price', true);
-$course_reviews 			= ! empty( get_post_meta( $current_product_id, 'la_course_reviews', true) ) ? get_post_meta( $current_product_id, 'la_course_reviews', true) : [];            
-$la_phleb_course_regular_price = get_post_meta( $current_product_id, 'la_phleb_course_regular_price', true);
-$la_phleb_course_sell_price = get_post_meta( $current_product_id, 'la_phleb_course_sell_price', true);
-$la_phleb_course_meta_group = get_post_meta( $current_product_id, 'la_phleb_course_meta_group', true);
-
 // Get variable product title and price by variable id
 function la_get_variable_title_price_by_varid( $variation_id ) {
 	$variation 		= wc_get_product($variation_id);
@@ -338,6 +324,11 @@ include FS_CHILD_THEME_DIR . '/woocommerce/small-device-contents/top-info-conten
 					<!-- Exam Country -->
 					<div class="fs-single-purchasing-option calendar-wrap">
 						<h4>3. Choose Exam Country</h4>
+						<pre>
+							<?php
+								print_r($fs_timeslot_group);
+							?>
+						</pre>
 						<div class="fs-single-purchasing-btns-wrap">
 							<a class="selected-btn" href="#" data-options-val="60">London</a>
 							<a href="#" data-options-val="70">Swindon</a>

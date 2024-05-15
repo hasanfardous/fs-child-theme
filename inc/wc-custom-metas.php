@@ -31,76 +31,18 @@ function la_get_wc_products_with_ids(){
 
 add_action( 'cmb2_admin_init', 'wc_product_metaboxes' );
 function wc_product_metaboxes() {
-	// LMS Courses metas
-	$lmsc_metas = new_cmb2_box( array(
-		'id'            => 'lms_courses_options',
-		'title'         => 'LMS Courses Options',
-		// 'desc'         	=> 'Please don\'t add more than 2 boards, extra boards will be ignored.',
-		'object_types'  => array( 'product', ), // Post type
-		'context'       => 'normal',
-		'priority'      => 'default',
-		'show_names'    => true, // Show field names on the left
-	) );
-	$lmsc_metas->add_field( array(
-		'name' => 'LMS Course ID',
-		'desc' => 'Enter the course ID',
-		// 'default' => 'Choose Your Booking Option',
-		'id'   => 'lms_course_id',
-		'type' => 'text',
-	) );
-	
-	// Video URL metas
-	$video_opt_cmb = new_cmb2_box( array(
-		'id'            => 'wc_product_video_url',
-		'title'         => 'Video Option',
-		// 'desc'         	=> 'Please don\'t add more than 2 boards, extra boards will be ignored.',
-		'object_types'  => array( 'product', ), // Post type
-		'context'       => 'normal',
-		'priority'      => 'default',
-		'show_names'    => true, // Show field names on the left
-	) );
-	$video_opt_cmb->add_field( array(
-		'name' => 'Button Title',
-		'desc' => 'Enter the Button title',
-		'default' => 'Watch Now',
-		'id'   => 'watch_video_btn',
-		'type' => 'text',
-	) );
-	$video_opt_cmb->add_field( array(
-		'name' => 'Video URL',
-		'desc' => 'Enter a youtube, twitter, or instagram URL. Supports services listed at <a href="http://codex.wordpress.org/Embeds">http://codex.wordpress.org/Embeds</a>.',
-		'id'   => 'watch_video_url',
-		'type' => 'oembed',
-	) );
-
-	// Success Story Video metas
-	$success_video_opt_cmb = new_cmb2_box( array(
-		'id'            => 'wc_product_success_video_url',
-		'title'         => 'Success Story Video Option',
-		// 'desc'         	=> 'Please don\'t add more than 2 boards, extra boards will be ignored.',
-		'object_types'  => array( 'product', ), // Post type
-		'context'       => 'normal',
-		'priority'      => 'default',
-		'show_names'    => true, // Show field names on the left
-	) );
-	$success_video_opt_cmb->add_field( array(
-		'name' => 'Success Story Video URL',
-		'desc' => 'Enter a youtube, twitter, or instagram URL. Supports services listed at <a href="http://codex.wordpress.org/Embeds">http://codex.wordpress.org/Embeds</a>.',
-		'id'   => 'watch_success_video_url',
-		'type' => 'oembed',
-	) );
-	
+	// Calendar Timeslot Setting metas
 	$cmb = new_cmb2_box( array(
-		'id'            => 'wc_product_faqs',
-		'title'         => 'Product FAQ',
-		'object_types'  => array( 'page', 'product', 'gcse' ), // Post type
+		'id'            => 'fs_timeslot_setting',
+		'title'         => 'Calendar Timeslot Setting',
+		'object_types'  => array( 'product' ), // Post type
 		'context'       => 'normal',
 		'priority'      => 'high',
 		'show_names'    => true, // Show field names on the left
 	) );
 
-	$faq_group_id = $cmb->add_field( array(
-		'id'          => 'product_faqs',
+	$timeslot_settings = $cmb->add_field( array(
+		'id'          => 'fs_timeslot_group',
 		'type'        => 'group',
 		'repeatable'  => true,
 		'options'     => array(
@@ -111,170 +53,34 @@ function wc_product_metaboxes() {
 			'sortable'      => true,  // Allow changing the order of repeated groups.
 		),
 	) );
-	$cmb->add_group_field( $faq_group_id, array(
-		'name' => 'FAQ Title',
-		'desc' => 'Enter the FAQ title',
-		'id'   => 'faq_title',
-		'type' => 'text',
-	) );
-	$cmb->add_group_field( $faq_group_id, array(
-		'name' => 'FAQ Text',
-		'desc' => 'Enter the FAQ text',
-		'id'   => 'faq_text',
-		'type' => 'textarea',
-	) );
-
-    // Curriculums metas
-    $curr_cmb = new_cmb2_box( array(
-		'id'            => 'wc_product_curr',
-		'title'         => 'Course Curriculums',
-		'object_types'  => array( 'product', ), // Post type
-		'context'       => 'normal',
-		'priority'      => 'high',
-		'show_names'    => true, // Show field names on the left
-	) );
-
-	$curr_group_id = $curr_cmb->add_field( array(
-		'id'          => 'product_curriculums',
-		'type'        => 'group',
-		'repeatable'  => true,
-		'options'     => array(
-			'group_title'   => 'Item {#}',
-			'add_button'    => 'Add Another Item',
-			'remove_button' => 'Remove Item',
-			'closed'        => true,  // Repeater fields closed by default - neat & compact.
-			'sortable'      => true,  // Allow changing the order of repeated groups.
-		),
-	) );
-	$curr_cmb->add_group_field( $curr_group_id, array(
-		'name' => 'Curriculum Title',
-		'desc' => 'Enter the curriculum title',
-		'id'   => 'curr_title',
-		'type' => 'text',
-	) );
-	// $curr_cmb->add_group_field( $curr_group_id, array(
-	// 	'name'    => 'Curriculum Image',
-	// 	'desc'    => 'Upload the image',
-	// 	'id'      => 'curr_image',
-	// 	'type'    => 'file_list',
-	// 	'query_args' => array( 'type' => 'image' ), // Only images attachment
-	// 	// Optional, override default text strings
-	// 	'text' => array(
-	// 		'add_upload_files_text' => 'Add Images', // default: "Add or Upload Files"
-	// 		// 'remove_image_text' => 'Replacement', // default: "Remove Image"
-	// 		'file_text' => 'Image', // default: "File:"
-	// 		// 'file_download_text' => 'Replacement', // default: "Download"
-	// 		// 'remove_text' => 'Replacement', // default: "Remove"
-	// 	),
-	// ) );
-	$curr_cmb->add_group_field( $curr_group_id, array(
-		'name' => 'Curriculum Text',
-		'desc' => 'Enter the Curriculum text',
-		'id'   => 'curr_text',
-		'type' => 'text',
-		'repeatable' => true,
-	) );
-	$curr_cmb->add_group_field( $curr_group_id, array(
-		'name' => 'Curriculum Duration',
-		'desc' => 'Enter the Curriculum Duration',
-		'id'   => 'curr_dur',
-		'type' => 'text',
-		'repeatable' => true,
-	) );
-
-
-    // Accreditation metas
-    $acc_cmb = new_cmb2_box( array(
-		'id'            => 'wc_product_acc',
-		'title'         => 'Course Accreditation',
-		'object_types'  => array( 'product', ), // Post type
-		'context'       => 'normal',
-		'priority'      => 'high',
-		'show_names'    => true, // Show field names on the left
-	) );
-
-	$acc_cmb->add_field( array(
-		'name'    => 'Accreditation',
-		'desc'    => 'Accreditation goes here',
-		'id'      => 'wc_product_accreditation',
-		'type'    => 'wysiwyg',
-		'options' => array(),
-	) );
-
-
-    // Certification metas
-    $acc_cmb = new_cmb2_box( array(
-		'id'            => 'wc_product_cert',
-		'title'         => 'Course certification',
-		'object_types'  => array( 'product', ), // Post type
-		'context'       => 'normal',
-		'priority'      => 'high',
-		'show_names'    => true, // Show field names on the left
-	) );
-
-	$acc_cmb->add_field( array(
-		'name'    => 'Certification',
-		'desc'    => 'Certification goes here',
-		'id'      => 'wc_product_certification',
-		'type'    => 'wysiwyg',
-		'options' => array(),
-	) );
-
-
-    // Exam Board metas
-    $exm_borad_cmb = new_cmb2_box( array(
-		'id'            => 'wc_product_exm_board',
-		'title'         => 'Exam Board Options',
-		// 'desc'         	=> 'Please don\'t add more than 2 boards, extra boards will be ignored.',
-		'object_types'  => array( 'product', ), // Post type
-		'context'       => 'normal',
-		'priority'      => 'default',
-		'show_names'    => true, // Show field names on the left
-	) );
-	$exm_borad_cmb->add_field( array(
-		'name' => 'Board Section Title',
-		'desc' => 'Enter the board section title',
-		'default' => 'Choose Your Booking Option',
-		'id'   => 'board_sec_title',
-		'type' => 'text',
-	) );
-	$exm_borad_cmb->add_field( array(
-		'name' => 'Show Course Attribute Buttons on Board Option?',
-		'desc' => 'You Could Show/Hide The Course Attributes Buttons Here.',
-		'id'   => 'board_sec_btns',
-		'type' => 'radio_inline',
+	$cmb->add_group_field( $timeslot_settings, array(
+		'name' => 'Select Calendar Column',
+		'desc' => 'Select the Calendar Column',
+		'id'   => 'fs_calendar_column',
+		'type' => 'multicheck',
 		'options' => [
-			'show' => 'Show',
-			'hide' => 'Hide',
-		],
-		'default' => 'show',
+			'one' => 'Column 1',
+			'two' => 'Column 2',
+			'three' => 'Column 3',
+			'four' => 'Column 4',
+			'five' => 'Column 5',
+			'six' => 'Column 6',
+			'seven' => 'Column 7',
+		]
 	) );
-
-	// Right Sidebar Course Facilities Option metas
-	$course_facilities_options_cmb = new_cmb2_box( array(
-		'id'            => 'wc_product_facilities_options',
-		'title'         => 'Right Sidebar Course Facilities Option',
-		// 'desc'         	=> 'Please don\'t add more than 2 boards, extra boards will be ignored.',
-		'object_types'  => array( 'product', ), // Post type
-		'context'       => 'normal',
-		'priority'      => 'default',
-		'show_names'    => true, // Show field names on the left
-	) );
-	$course_facilities_options_cmb->add_field( array(
-		'name' => 'First Item Title',
-		'desc' => 'Enter the first item title. Ex: Duration: 13 Hours',
-		// 'default' => 'Choose Your Booking Option',
-		'id'   => 'course_facilities_first_title',
+	$cmb->add_group_field( $timeslot_settings, array(
+		'name' => 'Price for that Column',
+		'desc' => 'Enter the price for that specified column. Ex: £239',
+		'id'   => 'fs_col_price',
 		'type' => 'text',
 	) );
-	$course_facilities_options_cmb->add_field( array(
-		'name' => 'Second Item Title',
-		'desc' => 'Enter the second item title. Ex: Instant Access',
-		// 'default' => 'Choose Your Booking Option',
-		'id'   => 'course_facilities_second_title',
+	$cmb->add_group_field( $timeslot_settings, array(
+		'name' => 'Timeslot Text',
+		'desc' => 'Enter the Timeslot text. Ex: 11:00 PM (£149)',
+		'id'   => 'timeslot_text',
 		'type' => 'text',
+		'repeatable' => true,
 	) );
-
 
     // Reviews metas
     $course_revs = new_cmb2_box( array(

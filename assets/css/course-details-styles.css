@@ -454,6 +454,7 @@ body.single-gcse section#top-info-section p.la-top-info-title {
 
 .fs-single-purchasing-option .fc-theme-standard td .fc-daygrid-day-number {
     color: #fff;
+    cursor: pointer;
 }
 
 .fs-single-purchasing-option h2.fc-toolbar-title {
@@ -649,6 +650,7 @@ div#phlebotomy-course-top-content-wrap .single-booking-option.overflow-hidden ul
     color: #fff;
 }
 
+.fs-single-purchasing-option .fc-theme-standard td.highlight .fc-daygrid-day-frame,
 .fs-single-purchasing-option .fc-theme-standard td .fc-highlight {
     background: #45453b;
     border-radius: 6px;
