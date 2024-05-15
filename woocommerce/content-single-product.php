@@ -62,6 +62,31 @@ $la_phleb_course_regular_price = get_post_meta( $current_product_id, 'la_phleb_c
 $la_phleb_course_sell_price = get_post_meta( $current_product_id, 'la_phleb_course_sell_price', true);
 $la_phleb_course_meta_group = get_post_meta( $current_product_id, 'la_phleb_course_meta_group', true);
 $fs_timeslot_group = get_post_meta( $current_product_id, 'fs_timeslot_group', true);
+
+// Dynamic Calendar Values
+$fs_events_data = [];
+
+foreach ( $fs_timeslot_group as $item ) {
+	$days_of_week = array_map( function( $day ) {
+		switch ( $day ) {
+			case 'one': 	return '1';
+			case 'two': 	return '2';
+			case 'three': 	return '3';
+			case 'four': 	return '4';
+			case 'five': 	return '5';
+			case 'six': 	return '6';
+			case 'seven': 	return '7';
+			// Default
+			default: return '';
+		}
+	}, $item['fs_calendar_column']);
+
+	$fs_events_data[] = [
+		'title' 		=> $item['fs_col_price'],
+		'daysOfWeek' 	=> $days_of_week,
+		'timeSlots' 	=> array_values( $item['timeslot_text'] ),
+	];
+}
 ?>
 
 <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.11/index.global.min.js'></script>
@@ -86,29 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	timeZone: 'UTC',
 	initialView: 'dayGridMonth',
 	height: 460,
-	events: [
-		{
-			classNames: ['calendar-single-date'],
-			title: '£239',
-			daysOfWeek: ['6'],
-			backgroundColor: '',
-			// color: '#FF1949',
-			timeSlots: [
-				'11:00 PM (£149)',
-				'11:30 PM (£249)',
-				'02:00 AM (£349)',
-			]
-		},
-		{
-			classNames: ['calendar-single-date'],
-			title: '£149',
-			daysOfWeek: ['1', '2', '3', '4', '5'],
-			timeSlots: [
-				'11:00 PM (£149)',
-				'11:30 PM (£249)',
-			]
-		}
-	],
+	events: <?php echo json_encode($fs_events_data)?>,
 	eventClick: function( info ) {
 		info.jsEvent.preventDefault();
 		console.log(info.event.title);
@@ -138,9 +141,6 @@ document.addEventListener('DOMContentLoaded', function() {
 		let fsSelectedDateTime = info.date.toLocaleDateString( 'en-US', dateOptions ).replace(/,(\s+)/, '$1');
 		headingEl.innerHTML = 'Select a time on ' + fsSelectedDateTime;
 		eventsForDate.forEach(event => {
-			// console.log('Event: ' + event.title);
-			// console.log('Event Time: ' + event.start);
-			// console.log('Event Timeslots: ' + event.extendedProps.timeSlots);
 			let eventTimeSlots = event.extendedProps.timeSlots;
 			eventTimeSlots.forEach( timeSlot => targetEl.innerHTML += `<span class="fs-single-booking-btn-date-time" 
 				data-event-info="${timeSlot}"
@@ -148,15 +148,6 @@ document.addEventListener('DOMContentLoaded', function() {
 				>${timeSlot}</span>`
 			);
 		});
-		if (!isDateSelected || calendar.selectedDate !== info.date) {
-			// If no date is selected or the clicked date is different from the selected date
-			calendar.select(info.date);
-		} else {
-			// If the clicked date is the same as the selected date, deselect it
-			calendar.unselect();
-		}
-		console.log('Selected Date ', isDateSelected);
-
 		// Highlight the selected item
 		var previouslyClickedEl = document.querySelector('td.highlight');
 		if ( previouslyClickedEl ) {
@@ -324,11 +315,6 @@ include FS_CHILD_THEME_DIR . '/woocommerce/small-device-contents/top-info-conten
 					<!-- Exam Country -->
 					<div class="fs-single-purchasing-option calendar-wrap">
 						<h4>3. Choose Exam Country</h4>
-						<pre>
-							<?php
-								print_r($fs_timeslot_group);
-							?>
-						</pre>
 						<div class="fs-single-purchasing-btns-wrap">
 							<a class="selected-btn" href="#" data-options-val="60">London</a>
 							<a href="#" data-options-val="70">Swindon</a>
