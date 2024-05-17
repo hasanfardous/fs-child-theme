@@ -546,6 +546,10 @@ body.single-gcse section#top-info-section p.la-top-info-title {
 }
 
 /* Tabbed content styles */
+#fs-single-course-tabbed-contents {
+    overflow: hidden;
+}
+
 #fs-single-course-tabbed-wrap {
     margin: 120px auto !important;
 }
@@ -609,6 +613,56 @@ body.single-gcse section#top-info-section p.la-top-info-title {
     padding-left: 36px;
     background: url(../imgs/checks.png) no-repeat scroll 0 0;
     margin-bottom: 12px;
+}
+
+/* Accordion styles */
+#fs-single-course-accordion-wrap {
+    margin-bottom: 120px;
+}
+
+#fs-single-course-accordion-wrap h2 {
+    margin-bottom: 60px;
+}
+
+.fs-single-course-accordion-item.active {
+    display: block;
+    height: auto;
+    background: #F8F8F8;
+}
+
+.fs-single-course-accordion-item {
+    /* display: none; */
+    border: 1px solid rgba(17, 17, 17, 0.05);
+    padding: 20px;
+    border-radius: 8px;
+    height: 60px;
+    overflow: hidden;
+    margin-bottom: 16px;
+    transition: height 0.3s, height 0.3s;
+}
+
+.fs-single-course-accordion-item h3 {
+    font-size: 18px;
+    cursor: pointer;
+    position: relative;
+}
+
+.fs-single-course-accordion-item h3::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    height: 30px;
+    background: url(../imgs/accordion-collapse.png)no-repeat 0 0;
+}
+
+.fs-single-course-accordion-item.active h3::after {
+    background: url(../imgs/accordion-expand.png)no-repeat 0 0;
+}
+
+.fs-single-course-accordion-item ul {
+    padding-left: 26px;
 }
 
 /* Phlebotomy Top Course Content styles */

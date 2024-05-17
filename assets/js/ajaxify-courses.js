@@ -451,5 +451,17 @@
             $activeTab = $('div[data-tab-content-item="' + $activeNab + '"]');
             $activeTab.addClass('active');
         });
+
+        // Accordion scripts
+        $('.fs-single-course-accordion-item h3').on('click', function () {
+            console.log('Accordion item clicked');
+            $this = $(this);
+            $parentItem = $this.parent();
+            if ($parentItem.hasClass('active')) {
+                $parentItem.removeClass('active');
+            } else {
+                $parentItem.addClass('active');
+            }
+        });
     });
 })(jQuery);

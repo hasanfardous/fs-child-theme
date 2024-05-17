@@ -355,7 +355,8 @@ include FS_CHILD_THEME_DIR . '/woocommerce/small-device-contents/top-info-conten
 		</div>
 
 		<!-- Tabbed Section -->
-		<div class="row"><div id="fs-single-course-tabbed-wrap" class="mt-4 mb-4">
+		<div class="row">
+			<div id="fs-single-course-tabbed-wrap" class="mt-4 mb-4">
 				<h2 class="text-center">Functional Skills Courses Level 2 Exam</h2>
 				<div id="fs-single-course-btns" class="">
 					<ul class="list-unstyled m-0 d-flex justify-content-center">
@@ -401,6 +402,113 @@ include FS_CHILD_THEME_DIR . '/woocommerce/small-device-contents/top-info-conten
 							<?php
 						}
 					?>
+				</div>
+			</div>
+		</div>
+
+		<!-- Accordion Exam details Section -->
+		<div class="row">
+			<div id="fs-single-course-accordion-wrap">
+				<h2 class="text-center">Functional Skills Maths Level 2 <br/> Course & Exam Details</h2>
+				<div id="fs-single-course-accordion-contents" class="d-flex justify-content-between">
+					<div class="fs-single-course-accordion-left-content w-50">
+						<img src="<?php echo FS_CHILD_THEME_DIR_URI . '/assets/imgs'?>/accordion-left-img.png" alt="accordion left image">
+					</div>
+
+					<div class="fs-single-course-accordion-right-content w-50">
+						<?php
+						for ( $i = 1; $i <= 6; $i++ ) {
+							$dynamic_class = $i == 1 ? 'active' : '';
+
+							switch ($i) {
+								case '1' :
+									$accordion_title = 'EXAM Booking & Results Details';
+									break;
+								case '2' :
+									$accordion_title = 'Difference between NCFE and Pearson Edexcel';
+									break;
+								case '3' :
+									$accordion_title = 'How This Course Will Work?';
+									break;
+								case '4' :
+									$accordion_title = 'Entry Requirement';
+									break;
+								case '5' :
+									$accordion_title = 'Exam Structure';
+									break;
+								case '6' :
+									$accordion_title = 'Recognised Accreditation';
+									break;
+								default :
+									$accordion_title = '';
+							}
+
+							?>
+							<div class="fs-single-course-accordion-item <?php echo $dynamic_class?>">
+								<h3><?php echo $accordion_title?></h3>
+								
+								<p>You can decide the exam date and place according to your convenience.</p>
+
+								<p>NCFE –</p>
+
+								<ul class="ms-0">
+									<li>Paper Based Exam– In the centre – Book within 15 days</li>
+									<li>On Screen Exam – In the centre – Book within 24 Hours</li>
+									<li>Remote Online Exam- From home – Book within 2 working days</li>
+									<li>Results – Get results in only 7 days</li>
+								</ul>
+							</div>
+							<?php
+						}
+						?>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Accordion Course Curriculum Section -->
+		<div class="row">
+			<div id="fs-single-course-accordion-wrap">
+				<h2 class="text-center">Course Curriculum</h2>
+				<div id="fs-single-course-accordion-contents" class="d-flex justify-content-between">
+					<div class="fs-single-course-accordion-left-content w-50">
+						<?php
+						for ( $i = 1; $i <= 3; $i++ ) {
+							$dynamic_class = $i == 1 ? 'active' : '';
+
+							switch ($i) {
+								case '1' :
+									$accordion_title = 'Unit 1: Number';
+									break;
+								case '2' :
+									$accordion_title = 'Unit 2: Measures, Shapes and Space';
+									break;
+								case '3' :
+									$accordion_title = 'Unit 3: Handling Data and Information';
+									break;
+								default :
+									$accordion_title = '';
+							}
+							?>
+							<div class="fs-single-course-accordion-item <?php echo $dynamic_class?>">
+								<h3><?php echo $accordion_title?></h3>
+
+								<p>Lesson 1.1: Numbers and the Number System</p>
+
+								<p>The number system gives you a general insight into the mathematical operations regarding the given numbers. You will acquire skills in division, multiplication, addition and subtraction, which require steps in real-life contexts.</p>
+
+								<p>Lesson 1.2: Fractions and Decimals</p>
+
+								<p>You will be learning many types of fractions, including improper fractions, proper fractions, equivalent fractions and more. Along with this, you will learn Ordering Decimal Numbers, Subtracting Decimals, multiplying and dividing decimals and more, which enables you to apply real-world problem-solving....</p>
+							</div>
+							<?php
+						}
+						?>
+					</div>
+
+					<div class="fs-single-course-accordion-right-content w-50 text-end">
+						<img src="<?php echo FS_CHILD_THEME_DIR_URI . '/assets/imgs'?>/accordion-right-img.png" alt="accordion right image">
+					</div>
 				</div>
 			</div>
 		</div>
