@@ -354,6 +354,57 @@ include FS_CHILD_THEME_DIR . '/woocommerce/small-device-contents/top-info-conten
 			</div>
 		</div>
 
+		<!-- Tabbed Section -->
+		<div class="row"><div id="fs-single-course-tabbed-wrap" class="mt-4 mb-4">
+				<h2 class="text-center">Functional Skills Courses Level 2 Exam</h2>
+				<div id="fs-single-course-btns" class="">
+					<ul class="list-unstyled m-0 d-flex justify-content-center">
+						<li class="single-btn-item active" data-tab-btn-item="1">Description</li>
+						<li class="single-btn-item" data-tab-btn-item="2">Module</li>
+						<li class="single-btn-item" data-tab-btn-item="3">Accreditation</li>
+						<li class="single-btn-item" data-tab-btn-item="4">Certification</li>
+						<li class="single-btn-item" data-tab-btn-item="5">Curriculum</li>
+						<li class="single-btn-item" data-tab-btn-item="6">Reviews</li>
+						<li class="single-btn-item" data-tab-btn-item="7">FAQ</li>
+					</ul>
+				</div>
+				<div id="fs-single-course-tabbed-contents" class="">
+					<?php
+						for ( $i = 1; $i <= 7; $i++ ) {
+							$dynamic_class = $i == 1 ? 'active' : '';
+							?>
+							<div class="fs-single-course-tabbed-contents <?php echo $dynamic_class?>" data-tab-content-item="<?php echo $i?>">
+								<div class="fs-single-course-tabbed-contents-inner d-flex">
+									<div class="fs-course-single-tab-left-content w-50">
+										<h3>Additional Features</h3>
+										<ul class="list-lunstyled m-0">
+											<li>Access to On-Demand Classes</li>
+											<li>Opportunity to Book 1:1 Live Tutor Support via Zoom</li>
+											<li>Enrol in Our Course and Prepare for the Exam from Home</li>
+											<li>Get a Free Mock Test with Professional Feedback</li>
+										</ul>
+
+										<h3>Why is this course right for you?</h3>
+										
+										<p>Our expert designed Functional Skills Maths Level 2 Course has smart learning options that provide the necessary numeracy knowledge and skills to excel in Functional Skills Maths.</p>
+
+										<p>Our course is tailored to meet your specific needs and help you achieve your academic and career goals from the comfort of your home.</p>
+
+										<p>You also get the opportunity to book Live 1:1 tutor support via Zoom. With interactive lessons, FREE mock test, personalised feedback and remote exams, our Maths Level 2 Course ensures a comprehensive and engaging learning experience.</p>
+									</div>
+
+									<div class="fs-course-single-tab-right-content w-50 ps-5">
+										<img src="<?php echo FS_CHILD_THEME_DIR_URI . '/assets/imgs'?>/tab-right-img.webp" alt="tab right image">
+									</div>
+								</div>
+							</div>
+							<?php
+						}
+					?>
+				</div>
+			</div>
+		</div>
+
 		<!-- Feedback Section -->
 		<div id="la-single-feedbacks" class="mt-5 mb-5 ssd-none d-xl-block w-100">
 			<div class="container">

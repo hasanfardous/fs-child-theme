@@ -545,6 +545,72 @@ body.single-gcse section#top-info-section p.la-top-info-title {
     font-size: 18px;
 }
 
+/* Tabbed content styles */
+#fs-single-course-tabbed-wrap {
+    margin: 120px auto !important;
+}
+
+#fs-single-course-tabbed-wrap h2 {
+    margin-bottom: 36px;
+}
+
+#fs-single-course-btns ul {
+    border: 1px solid rgba(17, 17, 17, 0.05);
+    border-radius: 50px;
+    padding: 8px;
+    width: max-content;
+    text-align: center;
+    margin: 0 auto 56px !important;
+}
+
+#fs-single-course-btns .single-btn-item {
+    display: block;
+    cursor: pointer;
+    background: rgba(17, 17, 17, 0.05);
+    border: 2px solid #F1F3F5;
+    border-radius: 50px;
+    color: #333;
+    padding: 12px 30px;
+    margin: 0 6px;
+    transition: all .3s ease-in-out;
+}
+
+#fs-single-course-btns .single-btn-item.active,
+#fs-single-course-btns .single-btn-item:hover {
+    background: #FF1949;
+    color: #fff;
+}
+
+.fs-single-course-tabbed-contents.active {
+    /* display: block; */
+    opacity: 1;
+    max-height: 100%;
+    transition: opacity 0.3s, opacity 0.3s;
+    overflow: hidden;
+}
+
+.fs-single-course-tabbed-contents {
+    /* display: none; */
+    opacity: 0;
+    max-height: 0;
+}
+
+.fs-course-single-tab-left-content h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.fs-course-single-tab-left-content ul {
+    padding-left: 0;
+    margin-bottom: 30px !important;
+}
+
+.fs-course-single-tab-left-content ul li {
+    padding-left: 36px;
+    background: url(../imgs/checks.png) no-repeat scroll 0 0;
+    margin-bottom: 12px;
+}
+
 /* Phlebotomy Top Course Content styles */
 div#phlebotomy-course-top-content-wrap,
 div#phlebotomy-course-top-content-wrap .single-booking-option.overflow-hidden,

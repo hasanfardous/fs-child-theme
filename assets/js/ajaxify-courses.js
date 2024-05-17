@@ -438,5 +438,18 @@
                 },
             });
         });
+
+        // Tabbed scripts
+        $('#fs-single-course-btns .single-btn-item').on('click', function () {
+            console.log('tab item clicked');
+            $this = $(this);
+            $tabListItem = $('#fs-single-course-btns .single-btn-item');
+            $tabListItem.removeClass('active');
+            $this.addClass('active');
+            $activeNab = $this.data('tab-btn-item');
+            $('.fs-single-course-tabbed-contents').removeClass('active');
+            $activeTab = $('div[data-tab-content-item="' + $activeNab + '"]');
+            $activeTab.addClass('active');
+        });
     });
 })(jQuery);
